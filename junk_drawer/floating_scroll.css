@@ -1,0 +1,48 @@
+/* floating scroll css */ 
+
+.floating-scroll-sticky {
+    z-index: 999;
+}
+.floating-scroll-sticky.floating-scroll-stick {
+    position: fixed !important;
+    top: 0;
+    z-index: 999;
+}
+.floating-scroll-sticky.floating-scroll-stick.floating-scroll-stuck {
+    position: absolute !important;
+    top: auto;
+    bottom: 0;
+    z-index: 999;
+}
+.floating-scroll-bounding-box{
+        position:relative !important;
+}
+
+#bounding-box {
+  position:relative;
+  float: left;
+  height:2050px;
+  width: 650px;
+  /*background-color:#ebebeb;*/
+}
+#content-box {
+  position: relative;
+  float: left;
+  margin-top: 5px;
+
+  width: 650px;
+  height: 650px;
+}
+
+
+
+
+
+#menu.stick {
+  position: fixed;
+  top: 0;
+  text-align: left; 
+  z-index: 10000;
+  margin-right: 10px;
+  margin-top: 20px;
+}
