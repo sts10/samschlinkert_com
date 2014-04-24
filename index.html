@@ -1,12 +1,12 @@
 <html>
 <head>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">
-		<!-- link js fix for iOS rotate zoom -->
-		<script src="https://raw.github.com/Wilto/ios-orientationchange-fix.js"></script>
+	<!-- link js fix for iOS rotate zoom -->
+	<script src="https://raw.github.com/Wilto/ios-orientationchange-fix.js"></script>
 	<title>Sam Schlinkert</title>
 	<link rel="shortcut icon" href="favicon.ico" />
 	<!-- <link rel="stylesheet" href="http://basehold.it/28"> -->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
 
 <script>
@@ -53,7 +53,7 @@
 </script>
 
 
-<!-- for slow scroll(?) -->
+<!-- for slow scroll -->
 <script>
 $(function() {
   $('a[href*=#]:not([href=#])').click(function() {
@@ -74,321 +74,272 @@ $(function() {
 
 
 <style>
-body {
-	border-top: 0;
-margin-top: 0px;
-padding-top: 0px;
-margin-bottom: 500px;
-/*background-color: #ebebeb;*/
-font-family: helvetica, arial, sans-serif;
-	line-height: 1.55555;
-	font-size: 18px;
+  body {
+  	border-top: 0;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 500px;
+    /*background-color: #ebebeb;*/
+    font-family: helvetica, arial, sans-serif;
+    line-height: 1.55555;
+    font-size: 18px;
 
-}
+  }
 
-header, aside, nav, section, footer {
-	display: block;
-}
+  header, aside, nav, section, footer {
+  	display: block;
+  }
 
 
-a {
-	color: #495EC9;
-	text-decoration: none;
+  a {
+  	color: #495EC9;
+  	text-decoration: none;
 
-}
-a:hover {
-	background-color: #ebebeb;
-}
+  }
+  a:hover {
+  	background-color: #ebebeb;
+  }
 
  .button, .markItUpHeader ul li, #rcp_submit {
-        display:inline-block;
-        border:0;
-        border-radius:0;
-        outline:0;
-        background:#4e68c7;
-        /*box-shadow:1px 0px 1px #203891, 0px 1px 1px #3852b1, 2px 1px 1px #203891, 1px 2px 1px #3852b1, 3px 2px 1px #203891, 2px 3px 1px #3852b1, 4px 3px 1px #203891, 3px 4px 1px #3852b1, 5px 4px 1px #203891, 4px 5px 1px #3852b1, 6px 5px 1px #203891;*/
-        color:white;
-        white-space:nowrap;
-        font-size: 13px;
-		font-family: 'helvetica neue', 'helvetica', arial;
-        text-decoration: none;
-        padding:9px 12px;
-        line-height:1.4;
-        position:relative;
-        top:-5px;
-        text-transform: uppercase;
-        letter-spacing: 1px;
-        /*height: 22px;*/
-        /*width: 127px; */
-        margin-bottom: 20px;
-
-
-    }
-    .button:not(.disabled):hover, .markItUpHeader ul li:not(.disabled):hover, .button:not(.disabled):focus, .markItUpHeader ul li:not(.disabled):focus, #rcp_submit:not(.disabled):hover, #rcp_submit:not(.disabled):focus {
-        color:white;
-        background:#3d57b4
-    }
-    .button:not(.disabled):active /*, .markItUpHeader ul li:not(.disabled):active, #rcp_submit:not(.disabled):active */
-    {
-        /*box-shadow:1px 0px 1px #203891, 0px 1px 1px #3852b1, 2px 1px 1px #203891, 1px 2px 1px #3852b1, 3px 2px 1px #203891;
-        -webkit-transform:translate(3px, 3px);
-        -moz-transform:translate(3px, 3px);
-        -ms-transform:translate(3px, 3px);
-        -o-transform:translate(3px, 3px);
-        transform:translate(3px, 3px)
-        */
+    display:inline-block;
+    border:0;
+    border-radius:0;
+    outline:0;
+    background:#4e68c7;
+    /*box-shadow:1px 0px 1px #203891, 0px 1px 1px #3852b1, 2px 1px 1px #203891, 1px 2px 1px #3852b1, 3px 2px 1px #203891, 2px 3px 1px #3852b1, 4px 3px 1px #203891, 3px 4px 1px #3852b1, 5px 4px 1px #203891, 4px 5px 1px #3852b1, 6px 5px 1px #203891;*/
+    color:white;
+    white-space:nowrap;
+    font-size: 13px;
+    font-family: 'helvetica neue', 'helvetica', arial;
+    text-decoration: none;
+    padding:9px 12px;
+    line-height:1.4;
+    position:relative;
+    top:-5px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    /*height: 22px;*/
+    /*width: 127px; */
+    margin-bottom: 20px;
     }
 
+  .button:not(.disabled):hover, .markItUpHeader ul li:not(.disabled):hover, .button:not(.disabled):focus, .markItUpHeader ul li:not(.disabled):focus, #rcp_submit:not(.disabled):hover, #rcp_submit:not(.disabled):focus {
+    color:white;
+    background:#3d57b4
+  }
 
 
-/* floating scroll css */ 
+  /* floating scroll css */ 
 
-.floating-scroll-sticky {
-    z-index: 999;
-}
-.floating-scroll-sticky.floating-scroll-stick {
-    position: fixed !important;
-    top: 0;
-    z-index: 999;
-}
-.floating-scroll-sticky.floating-scroll-stick.floating-scroll-stuck {
-    position: absolute !important;
-    top: auto;
-    bottom: 0;
-    z-index: 999;
-}
-.floating-scroll-bounding-box{
-        position:relative !important;
-}
+  .floating-scroll-sticky {
+      z-index: 999;
+  }
+  .floating-scroll-sticky.floating-scroll-stick {
+      position: fixed !important;
+      top: 0;
+      z-index: 999;
+  }
+  .floating-scroll-sticky.floating-scroll-stick.floating-scroll-stuck {
+      position: absolute !important;
+      top: auto;
+      bottom: 0;
+      z-index: 999;
+  }
+  .floating-scroll-bounding-box{
+          position:relative !important;
+  }
 
 	#bounding-box {
-
-	    position:relative;
-	    float: left;
-	    /*margin-left: 10px;*/
-	    /*margin-left: 250px;*/
-	    height:2050px;
-	    width: 650px;
-	    /*background-color:#ebebeb;*/
-		}
+    position:relative;
+    float: left;
+    height:2050px;
+    width: 650px;
+    /*background-color:#ebebeb;*/
+	}
 	#content-box {
-	    position: relative;
-		float: left;
-		margin-top: 5px;
-		 
-	    width: 650px;
-	    height: 650px;
+    position: relative;
+    float: left;
+    margin-top: 5px;
 
-	    /*background-color: #ccc;*/
-		}
+    width: 650px;
+    height: 650px;
+	}
 
 
 
-.my_name {
-	font-family: 'helvetica neue', 'helvetica', arial;
-	font-size: 28px; 
-	line-height: 1;
-	
-	text-transform: uppercase;
-	font-weight: 600;
-	
-}
+  .my_name {
+  	font-family: 'helvetica neue', 'helvetica', arial;
+  	font-size: 28px; 
+  	line-height: 1;
+  	
+  	text-transform: uppercase;
+  	font-weight: 600;  	
+  }
 
-#name_for_menu {
-	margin-bottom: 25px;
-	width:200px;
-}
+  #name_for_menu {
+  	margin-bottom: 25px;
+  	width:200px;
+  }
 
-#name_for_mobile {
-	margin-top: 25px;
-	margin-bottom: -20px;
-	display: none;
-}
+  #name_for_mobile {
+  	margin-top: 25px;
+  	margin-bottom: -20px;
+  	display: none;
+  }
 
-#menu {
-	position: fixed;
-  	/*display:block;*/
-	/*margin-top: 10px;*/
-	width: 235px;
-	overflow-x: hidden;
-	
-}
+  #menu {
+  	position: fixed;
+  	width: 235px;
+  	overflow-x: hidden;
+  	
+  }
 
-    #menu.stick {
-  position: fixed;
-  top: 0;
-    /*left: -20px; */
-     text-align: left; 
-  z-index: 10000;
-  margin-right: 10px;
-  margin-top: 20px;
-}
+  #menu.stick {
+    position: fixed;
+    top: 0;
+    text-align: left; 
+    z-index: 10000;
+    margin-right: 10px;
+    margin-top: 20px;
+  }
 
-#main {
-	/*position: relative;*/
-	margin-left: 235px;
-	/*margin-top: 40px;*/
-	max-width: 600px;
-	min-width: 300px;
-	margin-right: 25px;
-}
+  #main {
+  	margin-left: 235px;
+  	max-width: 600px;
+  	min-width: 300px;
+  	margin-right: 25px;
+  }
 
+  #main p{
+  	margin-bottom: 28px;
+  }
 
-#main p{
-	margin-bottom: 28px;
-	 
-}
+  #main ul {
+  	list-style-type:square;
+  	margin-left:-15px;
+  	margin-bottom: 28px;
+  }
 
+  #main li {
+  	margin-bottom: 3px;  	
+  }
 
+  a {
+    color: #495EC9;
+    text-decoration: none;
+  }
 
-#main ul {
-	
-	list-style-type:square;
-	margin-left:-15px;
-	margin-bottom: 28px;
+  a:hover {
+    background-color: #ebebeb;
+  }
 
-}
-#main li {
-	margin-bottom: 3px;
-	
-}
+  .section_head {
+    margin-top: 28px;
+    margin-bottom: 19px;
+    font-family: 'georgia', 'helvetica neue', 'helvetica', arial;
+    font-size: 28px;
+    font-style: italic;
+  }
 
+  /*
+  #about {
+  color: #0e478a;
+  }
 
-/*#main */a {
-	color: #495EC9;
-	text-decoration: none;
+  #social{
+  color: #2089a4;
+  }
 
-}
-/*#main*/ a:hover {
-	background-color: #ebebeb;
-}
+  #coding{
+  color: #81aa52;
+  }
 
+  #writing {
+  color: #eca02f;
+  }
 
-.section_head {
-	margin-top: 28px;
-	margin-bottom: 19px;
-	font-family: 'georgia', 'helvetica neue', 'helvetica', arial;
-	font-size: 28px;
-	font-style: italic;
+  #contact{
+  color: #d52d26;
+  }
 
-}
+  */
 
-/*
-#about {
-color: #0e478a;
-}
+  /* CSS for theater */
 
-#social{
-color: #2089a4;
-}
+  #story{
+    float: left;
+    position: relative;
+    width: 250px;
+    overflow-x: hidden;
+    margin-right: 10px;  
+    font-family: helvetica, arial;
+  }
 
-#coding{
-color: #81aa52;
-}
+  #story img {
+  	width: 250px;
+  	
+  }
 
-#writing {
-color: #eca02f;
-}
-
-#contact{
-color: #d52d26;
-}
-
-*/
-
-/* CSS for theater */
-
-#story{
-  float: left;
-  position: relative;
-  
-  /*height: 1575px;*/
-  width: 250px;
-  overflow-x: hidden;
-  /*overflow-y: scroll;*/
-  margin-right: 10px;
-  /*border-right: 1px solid #ccc;*/
-  
-  font-family: helvetica, arial;
-}
-#story img {
-	width: 250px;
-	
-}
-
-.chapter {
-	margin-bottom: 40px;
-}
-.th-thumb {
-	margin-left: auto;
-	margin-right: auto;
-}
+  .chapter {
+  	margin-bottom: 40px;
+  }
+  .th-thumb {
+  	margin-left: auto;
+  	margin-right: auto;
+  }
 
 
 
-.title {
-	font-size: 26px;
-  font-family: 'helvetica neue', 'helvetica', arial;
-    /*margin-left: 4px;*/
-  margin-top: 20px;
-}
+  .title {
+  	font-size: 26px;
+    font-family: 'helvetica neue', 'helvetica', arial;
+    margin-top: 20px;
+  }
 
-.text {
-
+  .text {
     font-family: 'helvetica', arial;
-  margin-left: 8px;
-  margin-right: 8px;
-  margin-top: 15px;
-  margin-bottom: 15px;
-}
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+  }
 
 	.theater {
-	 	 
 		background-color: white; /* #fcfbcc; */
 		border-left: 7px #ccc solid;
-		
-		/*border-radius: 6px; */
-		/*box-shadow: 0 0 15px #999;*/
 		margin-bottom: 40px;  
 	}
 
-.hed{
-	font-size: 26px;
- 	font-family: 'helvetica neue', 'helvetica', arial;
-  	font-weight: bold;
-	margin-left: 20px;
-  	margin-top: 10px;
+  .hed{
+  	font-size: 26px;
+   	font-family: 'helvetica neue', 'helvetica', arial;
+    font-weight: bold;
+  	margin-left: 20px;
+    margin-top: 10px;
   	margin-bottom: 8px;
-}
+  }
 
-.hi{
-	color: #0e478a;
-}
+  .hi{
+  	color: #0e478a;
+  }
 
-.social_media{
-	color: #2089a4;
-}
+  .social_media {
+  	color: #2089a4;
+  }
 
-.web_design {
-	color: #81aa52;
-}
+  .web_design {
+  	color: #81aa52;
+  }
 
-.writing {
-	color: #eca02f;
-}
+  .writing {
+  	color: #eca02f;
+  }
 
-.contact {
-	color: #d52d26;
-}
+  .contact {
+  	color: #d52d26;
+  }
 
-
-.hed:after {
-	/*content: ' \00BB';*/
-}
-
-
-	.int_image {
-		 
+	.int_image {	 
 		border:0; 
 		background-color: white !important;
 		
@@ -407,31 +358,24 @@ color: #d52d26;
 		float: left;
 		border: 1px black solid;
 		background-color: white !important;
-
-
 	}
+
 	.dek {
 		margin-top: 5px;
 		margin-left: 20px;
 		margin-right: 20px;
-		
 		margin-bottom: 30px;
-	/*	line-height: 1.3;
-		font-size: 15px;
-		  font-family: 'helvetica', arial;*/
 		text-align: justify;
 
 	}
-	.dek a {
-		/*background-color: #ebebeb !important;*/
-	}
+
 	.dek a:hover {
 		background-color: #ebebeb !important; /* was #ccc */ 
 	}
 
-.newsweek {
-	font-style: italic;
-}
+  .newsweek {
+  	font-style: italic;
+  }
 
 
 /* for box matrix */
@@ -571,43 +515,41 @@ div#lastbox {
 
 	<div class="section_head" id="social">Social Media Editing</div>
         
-    
+    <p>In the fall of 2011 I joined the social team at <span class="newsweek">Newsweek</span> & The Daily Beast. After the sale of <span class="newsweek">Newsweek</span> to IBT Media in the fall of 2013, I stayed on with The Daily Beast as the Deputy Social Media Editor until January of 2014.</p>
 
-      <p>In the fall of 2011 I joined the social team at <span class="newsweek">Newsweek</span> & The Daily Beast. After the sale of <span class="newsweek">Newsweek</span> to IBT Media in the fall of 2013, I stayed on with The Daily Beast as the Deputy Social Media Editor until January of 2014.</p>
-
-      <p>My responsibilities at The Daily Beast included:</p>
-<ul>
-    <li>
-    	Managing the <a href="http://cheatsheet.tumblr.com/" target="_blank">Tumblr blogs</a>, <a href="http://twitter.com/#!/newsweek" target="_blank">Twitter feeds</a>, and <a href="https://www.facebook.com/thedailybeast" target="_blank">Facebook</a> and <a href="https://plus.google.com/100212953676424405273/posts" target="_blank">Google+</a> pages of The Daily Beast (when IAC still owned <span class="newsweek">Newsweek</span> I managed <span class="newsweek">Newsweek</span>&#8217;s social accounts as well)
-    </li>
-
-    <li>
-    	Soliciting readers&#8217; opinions on various topics <a href="http://www.thedailybeast.com/articles/2013/06/07/do-you-care-that-the-nsa-is-spying-on-you.html" target="_blank">using customized forms</a> and developing <a href="http://www.thedailybeast.com/articles/2012/12/21/why-we-own-guns.html" target="_blank">creative ways of displaying the results</a>
-    </li>
-    <li>
-    	Covering breaking news with tools like Storify (<a href="http://www.thedailybeast.com/articles/2013/11/01/reports-shooting-at-lax.html">&ldquo;Three Shot at LAX&rdquo;</a>) and Livefyre (<a href="http://www.thedailybeast.com/articles/2013/07/01/live-blog-48-hours-in-cairo.html">&ldquo;Live Blog: Egyptian Army Ousts Morsi&rdquo;</a>)
-    </li>
-    <li>
-    	Setting up and customizing the theme code for multiple Tumblr blogs, such as <a href="http://picturedept.tumblr.com/" target="_blank">Picture Dept</a>, <a href="http://nwkarchivist.tumblr.com/" target="_blank">NWKArchivist</a>, and <a href="http://theporkbarrel.tumblr.com/" target="_blank">The Pork Barrel</a>
-    </li>
- <!--    <li>
-    	Overseeeing freelance community moderators to improve the quality of comments on the site</li>
-    <li>
-    	Writing internal documents such as weekly statistical reports and social media guidelines, how-tos, and strategy overviews
-    </li> -->
-</ul>
+    <p>My responsibilities at The Daily Beast included:</p>
+    <ul>
+        <li>
+        	Managing the <a href="http://cheatsheet.tumblr.com/" target="_blank">Tumblr blogs</a>, <a href="http://twitter.com/#!/newsweek" target="_blank">Twitter feeds</a>, and <a href="https://www.facebook.com/thedailybeast" target="_blank">Facebook</a> and <a href="https://plus.google.com/100212953676424405273/posts" target="_blank">Google+</a> pages of The Daily Beast (when IAC still owned <span class="newsweek">Newsweek</span> I managed <span class="newsweek">Newsweek</span>&#8217;s social accounts as well)
+        </li>
+        <li>
+        	Soliciting readers&#8217; opinions on various topics <a href="http://www.thedailybeast.com/articles/2013/06/07/do-you-care-that-the-nsa-is-spying-on-you.html" target="_blank">using customized forms</a> and developing <a href="http://www.thedailybeast.com/articles/2012/12/21/why-we-own-guns.html" target="_blank">creative ways of displaying the results</a>
+        </li>
+        <li>
+        	Covering breaking news with tools like Storify (<a href="http://www.thedailybeast.com/articles/2013/11/01/reports-shooting-at-lax.html">&ldquo;Three Shot at LAX&rdquo;</a>) and Livefyre (<a href="http://www.thedailybeast.com/articles/2013/07/01/live-blog-48-hours-in-cairo.html">&ldquo;Live Blog: Egyptian Army Ousts Morsi&rdquo;</a>)
+        </li>
+        <li>
+        	Setting up and customizing the theme code for multiple Tumblr blogs, such as <a href="http://picturedept.tumblr.com/" target="_blank">Picture Dept</a>, <a href="http://nwkarchivist.tumblr.com/" target="_blank">NWKArchivist</a>, and <a href="http://theporkbarrel.tumblr.com/" target="_blank">The Pork Barrel</a>
+        </li>
+     <!--    <li>
+        	Overseeeing freelance community moderators to improve the quality of comments on the site</li>
+        <li>
+        	Writing internal documents such as weekly statistical reports and social media guidelines, how-tos, and strategy overviews
+        </li> -->
+    </ul>
 
 
-<p>In 2013 our small social team at The Beast was <a href="http://winners.webbyawards.com/2013/social/social-content-and-marketing/news-information/the-daily-beast-social" target="_blank">nominated for a Webby</a> in the News &amp; Information category.</p>
- 
- <p> 
- 	In my younger days I ran some fun Tumblrs, including <a href="http://blakelivelydoingthings.tumblr.com/" target="_blank">Blake Lively Doing Things</a>, <a href="http://kitchencountersyoucouldfuckon.tumblr.com/" target="_blank">Kitchen Counters</a>, and <a href="http://hashtaghashtag.com/" target="_blank">The ##</a>.
+    <p>
+      In 2013 our small social team at The Beast was <a href="http://winners.webbyawards.com/2013/social/social-content-and-marketing/news-information/the-daily-beast-social" target="_blank">nominated for a Webby</a> in the News &amp; Information category.
+    </p>
+   
+    <p> 
+   	  In my younger days I ran some fun Tumblrs, including <a href="http://blakelivelydoingthings.tumblr.com/" target="_blank">Blake Lively Doing Things</a>, <a href="http://kitchencountersyoucouldfuckon.tumblr.com/" target="_blank">Kitchen Counters</a>, and <a href="http://hashtaghashtag.com/" target="_blank">The ##</a>.
+  	</p>
 	
-	
-<div class="section_head" id="coding">Web Design and Interactives</div>
-	
-	<p>
-		While I've been tinkering around with HTML and CSS since I was in my early teens, the first time I coded for a real audience was at <span class="newsweek">Newsweek</span> & The Daily Beast, starting in 2011. 
+  <div class="section_head" id="coding">Web Design and Interactives</div>
+  	<p>
+  		While I've been tinkering around with HTML and CSS since I was in my early teens, the first time I coded for a real audience was at <span class="newsweek">Newsweek</span> & The Daily Beast, starting in 2011. 
 			<br><br>
 			<img src="http://25.media.tumblr.com/avatar_ce116ecec5ef_128.png" style="width: 70px; float:left; margin-right: 10px; margin-bottom: 5px;">At NewsBeast I was a part of an informal group called <a href="http://newsbeastlabs.tumblr.com/" target="_blank">Newsbeast Labs</a> that produced interactives to add depth to news stories. These interactives included maps, charts, grapics... anything that went beyond standard text and photos. In December of 2012 the Labs group was <a href="http://www.adweek.com/news/technology/what-newsweeks-digital-future-will-look-145942" target="_blank">interviewed for AdWeek</a>. 
 			<br><br>
@@ -617,400 +559,184 @@ div#lastbox {
 			I've also designed some Tumblrs and websites, both for <span class="newsweek">Newsweek</span> & The Daily Beast and as a freelance designer.
 
 			<br><br>
-			 
-	</p>
+  			 
+  	</p>
         
 	<div id="wd_wrapper" style="margin-top:20px;">
- 
+    <div class="theater" id="loader1">
 
+      <div class="hed">
+      	<a href="http://www.thedailybeast.com/articles/2013/09/09/syria-resolution-in-congress-tracking-the-vote-interactive.html" target="_blank">Tracking the Syria Vote</a>
+      </div>
 
+      <a href="http://www.thedailybeast.com/articles/2013/09/09/syria-resolution-in-congress-tracking-the-vote-interactive.html" target="_blank" class="int_image">
+      	<img src="http://i.imgur.com/wIQfCQd.png"> 
+      </a>
 
-	<div class="theater" id="loader1">
-
-		<div class="hed">
-			<a href="http://www.thedailybeast.com/articles/2013/09/09/syria-resolution-in-congress-tracking-the-vote-interactive.html" target="_blank">Tracking the Syria Vote</a>
-		</div>
-
-		<a href="http://www.thedailybeast.com/articles/2013/09/09/syria-resolution-in-congress-tracking-the-vote-interactive.html" target="_blank" class="int_image">
-			
-			<img src="http://i.imgur.com/wIQfCQd.png"> 
-		</a>
-
-		<div class="dek">
-		 
-
-			In September of 2013 Congress was gearing up for a vote on whether to use military force against Syria's President Assad. Editors at The Daily Beast wanted a graphical way to represent different politicians&#8217; views on the issue. 
-			<br><br>
-			For this project I started with code written by Michael Keller, a former co-worker, for a <a href="http://www.thedailybeast.com/articles/2013/06/12/michael-moore-glenn-beck-more-edward-snowden-opinions-interactive.html" target="_blank">project that displayed differing opinions on Edward Snowden</a>.  
-			<br><br>
-			This interactive has some cool things going on behind the scenes. Using the <a href="http://misoproject.com/">Miso Project</a>, it pulls information from an associated csv spreadsheet. <br><BR>
-			<IMG SRC="http://i.imgur.com/tSM8vjE.png" style="border: 1px solid #000; width:50%; float:right; margin: 3px 0 5px 15px;">
-				
-
-
-			The spreadsheet has a unique row for each person, with columns for name, title, image location, x and y positions on the grid, and any information displayed in the hover windows. By using Miso in this way, it's easier for those not comfortable editing code to create and edit the content of the interactive using Excel or Google Docs. 
- 		</div>
-	</div>
-	<div class="theater" id="loader2">
-		<div class="hed">
-			<a href="http://picturedept.tumblr.com/" target="_blank">Picture Dept Tumblr</a>
-		</div>
+      <div class="dek">
+      	In September of 2013 Congress was gearing up for a vote on whether to use military force against Syria's President Assad. Editors at The Daily Beast wanted a graphical way to represent different politicians&#8217; views on the issue. 
+      	<br><br>
+      	For this project I started with code written by Michael Keller, a former co-worker, for a <a href="http://www.thedailybeast.com/articles/2013/06/12/michael-moore-glenn-beck-more-edward-snowden-opinions-interactive.html" target="_blank">project that displayed differing opinions on Edward Snowden</a>.  
+      	<br><br>
+      	This interactive has some cool things going on behind the scenes. Using the <a href="http://misoproject.com/">Miso Project</a>, it pulls information from an associated csv spreadsheet. <br><BR>
+      	<IMG SRC="http://i.imgur.com/tSM8vjE.png" style="border: 1px solid #000; width:50%; float:right; margin: 3px 0 5px 15px;">
+      		
+      	The spreadsheet has a unique row for each person, with columns for name, title, image location, x and y positions on the grid, and any information displayed in the hover windows. By using Miso in this way, it's easier for those not comfortable editing code to create and edit the content of the interactive using Excel or Google Docs. 
+      </div>
+    </div>
+    <div class="theater" id="loader2">
+  		<div class="hed">
+  			<a href="http://picturedept.tumblr.com/" target="_blank">Picture Dept Tumblr</a>
+  		</div>
 		
 			<a href="http://picturedept.tumblr.com/" target="_blank" class="int_image">
 				<!-- <img src="http://i.imgur.com/VobbmBo.png"> -->
 				<img src="http://24.media.tumblr.com/tumblr_maax8btTk31rubv0yo1_r1_1280.jpg">
 			</a>
-		<div class="dek">
-			
+  		<div class="dek">
+  			In 2012 the photo department at <span class="newsweek">Newsweek</span> & The Daily Beast wanted to start a Tumblr to showcase some of the great photography that didn&#8217;t quite fit in the print product or on the website. I worked with the photo editors to create a completely custom Tumblr theme geared toward showing these images in a simple design that stayed out of the way.  
+  			<br><br>
+  			Fun fact: During all my work on the theme, I listened to Nicki Minaj&#8217;s &ldquo;Moment 4 Life&rdquo; on repeat. 
+  			<br><br>
+  			Photo by <a href="http://picturedept.tumblr.com/post/31473069969/beautiful-brooklyn-a-great-photo-essay-from-this" target="_blank">Gaia Light and Alessandro Cosmelli</a>.
+  		</div>
+    </div>
+  	<div class="theater" id="loader3">
+  	 	<div class="hed">
+  	 		<a href="http://www.thedailybeast.com/articles/2013/08/01/the-mcpoverty-calculator.html" target="_blank">McPoverty Calculator</a>
+  	 	</div>
+  	
+  		<a href="http://www.thedailybeast.com/articles/2013/08/01/the-mcpoverty-calculator.html" target="_blank" class="int_image">
+  				<!--<img src="http://i.imgur.com/YJdOdfE.png"> -->
+  				<img src="http://www.mcdonalds.com/content/dam/McDonalds/item/mcdonalds-Big-Mac.png" style="width:25%; border:0;">
+  		</a>
+  		<div class="dek">
+  			Amid the mass-walks outs and protests over low wages in the fast-food industry that took place in the summer of 2013, I worked with a reporter and editor at The Daily Beast to look into the relationship between fast-food prices and employee pay. 
+  			<br><br>
+  			After consulting two economists, I developed a little app that allows users to select how much more they'd be willing to pay for a Big Mac. Once the user selects a value, they automatically see how much above the $7.25 minimum wage workers can make as a result, and whether that gets them over the official poverty line.
+  			<br><br>
+        I wrote <a href="http://newsbeastlabs.tumblr.com/post/58247528927/this-month-saw-big-news-from-the-fast-food" target="_blank">a lengthy post on the Newsbeast Labs Tumblr</a> detailing how I approached and executed the project.
+  		</div>
+  	</div>
 
-			In 2012 the photo department at <span class="newsweek">Newsweek</span> & The Daily Beast wanted to start a Tumblr to showcase some of the great photography that didn&#8217;t quite fit in the print product or on the website. I worked with the photo editors to create a completely custom Tumblr theme geared toward showing these images in a simple design that stayed out of the way.  
-			<br><br>
-			Fun fact: During all my work on the theme, I listened to Nicki Minaj&#8217;s &ldquo;Moment 4 Life&rdquo; on repeat. 
-			<br><br>
-			Photo by <a href="http://picturedept.tumblr.com/post/31473069969/beautiful-brooklyn-a-great-photo-essay-from-this" target="_blank">Gaia Light and Alessandro Cosmelli</a>.
+  	<div class="theater" id="loader4">
+  	 	<div class="hed">
+  	 		<a href="http://newsbeastlabs.thedailybeast.com/projects/death-by-indifference/" target="_blank">Death by Indifference</a>
+  	 	</div>
+  		
+  		<a href="http://newsbeastlabs.thedailybeast.com/projects/death-by-indifference/" target="_blank" class="int_image">
+        <img src="http://newsbeastlabs.thedailybeast.com/projects/death-by-indifference/imgs/slideshow/L1011193-Edit.jpg">
+      </a>
 
-		</div>
+  		<div class="dek">
+  			For this project the Newsbeast Labs team worked with videographer and former <span class="newsweek">Newsweek</span> & Daily Beast Senior Producer Gregory Gilderman. With support from the <a href="http://pulitzercenter.org/" target="_blank">Pulitzer Center on Crisis Reporting</a>, Gregory traveled to Russia to document the AIDS epidemic occurring there.
+  			<br><br>
+  			Our task was to design and create a stand-alone site that best presented his work. For more information, you can read <a href="http://newsbeastlabs.tumblr.com/post/54445527683/today-we-published-our-first-daily-beast" target="_blank">our Newsbeast Labs Tumblr post about the process</a>.
+  		</div>
+  	</div>
 
-	</div>
-	<div class="theater" id="loader3">
-	 	<div class="hed">
-	 		<a href="http://www.thedailybeast.com/articles/2013/08/01/the-mcpoverty-calculator.html" target="_blank">McPoverty Calculator</a>
-	 	</div>
-	
-			<a href="http://www.thedailybeast.com/articles/2013/08/01/the-mcpoverty-calculator.html" target="_blank" class="int_image">
-				<!--<img src="http://i.imgur.com/YJdOdfE.png"> -->
-				<img src="http://www.mcdonalds.com/content/dam/McDonalds/item/mcdonalds-Big-Mac.png" style="width:25%; border:0;">
-			</a>
-		<div class="dek">
-			
+  	<div class="theater" id="loader5">
+  	 	<div class="hed">
+  	 		<a href="http://www.thedailybeast.com/articles/2013/10/28/hurricane-sandy-before-and-after.html" target="_blank">Hurricane Sandy: Then and Now</a>
+  	 	</div>
+  		
+  		<a href="http://www.thedailybeast.com/articles/2013/10/28/hurricane-sandy-before-and-after.html" target="_blank" class="int_image">
+        <img src="http://i.imgur.com/L2BUruZ.jpg">
+      </a>
 
-			Amid the mass-walks outs and protests over low wages in the fast-food industry that took place in the summer of 2013, I worked with a reporter and editor at The Daily Beast to look into the relationship between fast-food prices and employee pay. 
-			<br><br>
-			After consulting two economists, I developed a little app that allows users to select how much more they'd be willing to pay for a Big Mac. Once the user selects a value, they automatically see how much above the $7.25 minimum wage workers can make as a result, and whether that gets them over the official poverty line.
-			<br><br>
-			 I wrote <a href="http://newsbeastlabs.tumblr.com/post/58247528927/this-month-saw-big-news-from-the-fast-food" target="_blank">a lengthy post on the Newsbeast Labs Tumblr</a> detailing how I approached and executed the project. 
-
-		</div>
-	</div>
-
-	<div class="theater" id="loader4">
-	 	<div class="hed">
-	 		<a href="http://newsbeastlabs.thedailybeast.com/projects/death-by-indifference/" target="_blank">Death by Indifference</a>
-	 	</div>
-		
-		<a href="http://newsbeastlabs.thedailybeast.com/projects/death-by-indifference/" target="_blank" class="int_image"><img src="http://newsbeastlabs.thedailybeast.com/projects/death-by-indifference/imgs/slideshow/L1011193-Edit.jpg"></a>
-
-		<div class="dek">
-			
-			For this project the Newsbeast Labs team worked with videographer and former <span class="newsweek">Newsweek</span> & Daily Beast Senior Producer Gregory Gilderman. With support from the <a href="http://pulitzercenter.org/" target="_blank">Pulitzer Center on Crisis Reporting</a>, Gregory traveled to Russia to document the AIDS epidemic occurring there.
-			<br><br>
-			Our task was to design and create a stand-alone site that best presented his work. For more information, you can read <a href="http://newsbeastlabs.tumblr.com/post/54445527683/today-we-published-our-first-daily-beast" target="_blank">our Newsbeast Labs Tumblr post about the process</a>.
-
-			
-
-		</div>
-	</div>
-
-	<div class="theater" id="loader5">
-	 	<div class="hed">
-	 		<a href="http://www.thedailybeast.com/articles/2013/10/28/hurricane-sandy-before-and-after.html" target="_blank">Hurricane Sandy: Then and Now</a>
-	 	</div>
-		
-		<a href="http://www.thedailybeast.com/articles/2013/10/28/hurricane-sandy-before-and-after.html" target="_blank" class="int_image"><img src="http://i.imgur.com/L2BUruZ.jpg"></a>
-
-		<div class="dek">
-			
-			On the one-year anniversary of Hurricane Sandy hitting the east coast, The Daily Beast photo editors wanted a way to show how well we've rebuilt. We decided that using a slider to drag between two photos taken from the same perspective a year apart would be the best way to do this. 
-			<br><br>
-			After a Google search for a handy <a href="http://www.catchmyfame.com/catchmyfame-jquery-plugins/jquery-beforeafter-plugin/" target="_new">jQuery plugin</a> we were in business in just a few hours. 
-
-			
-
-		</div>
-	</div>
+  		<div class="dek">
+  			On the one-year anniversary of Hurricane Sandy hitting the east coast, The Daily Beast photo editors wanted a way to show how well we've rebuilt. We decided that using a slider to drag between two photos taken from the same perspective a year apart would be the best way to do this. 
+  			<br><br>
+  			After a Google search for a handy <a href="http://www.catchmyfame.com/catchmyfame-jquery-plugins/jquery-beforeafter-plugin/" target="_new">jQuery plugin</a> we were in business in just a few hours. 
+  		</div>
+  	</div>
  
- 	<div class="theater" id="loader6">
-	 	<div class="hed">
-	 		<a href="http://joshruxin.tumblr.com/" target="_blank">Josh Ruxin Personal Website</a>
-	 	</div>
-		
-			<a href="http://joshruxin.tumblr.com/" target="_blank" class="int_image"><img src="http://i.imgur.com/PV7t5m3.jpg" style="width:18%; border:0;"></a>
-		<div class="dek">
-			
-			Author and Assistant Clincal Professor at Columbia University Josh Ruxin contacted me in the winter of 2012 to create a wesbite for him and his then-upcoming book, <a href="http://www.amazon.com/Thousand-Hills-Heaven-Restaurant-Rwanda/dp/0316232912/ref=sr_1_1?s=books&ie=UTF8&qid=1363198473&sr=1-1&keywords=a+thousand+hills+to+heaven"><em>A Thousand Hills to Heaven</em></a>. Over the course of a few months in 2013, I worked with his team to create a simple website for Josh. 
-			<br><br>			 
-			
+   	<div class="theater" id="loader6">
+  	 	<div class="hed">
+  	 		<a href="http://joshruxin.tumblr.com/" target="_blank">Josh Ruxin Personal Website</a>
+  	 	</div>
+  		
+  			<a href="http://joshruxin.tumblr.com/" target="_blank" class="int_image">
+          <img src="http://i.imgur.com/PV7t5m3.jpg" style="width:18%; border:0;">
+        </a>
+  		<div class="dek">
+  			Author and Assistant Clincal Professor at Columbia University Josh Ruxin contacted me in the winter of 2012 to create a wesbite for him and his then-upcoming book, <a href="http://www.amazon.com/Thousand-Hills-Heaven-Restaurant-Rwanda/dp/0316232912/ref=sr_1_1?s=books&ie=UTF8&qid=1363198473&sr=1-1&keywords=a+thousand+hills+to+heaven"><em>A Thousand Hills to Heaven</em></a>. Over the course of a few months in 2013, I worked with his team to create a simple website for Josh. 
+  			<br><br>			 
+  		</div>
+  	</div>
 
-		</div>
-	</div>
+  	<div class="theater" id="loader7">
+  	 	<div class="hed">
+  	 		<a href="http://fmwhiteboard.tumblr.com/" target="_blank">Federated Media's Whiteboard Tumblr</a>
+  	 	</div>
+  		
+  		<a href="http://fmwhiteboard.tumblr.com/" target="_blank" class="int_image" style="border:0; background-color: white !important;">
+        <img src="http://static.tumblr.com/488e97d682d87c0f8ee3c987c21912a2/jqune67/72nmlu5wc/tumblr_static_wb_header.png">
+      </a>
 
-	<div class="theater" id="loader7">
-	 	<div class="hed">
-	 		<a href="http://fmwhiteboard.tumblr.com/" target="_blank">Federated Media's Whiteboard Tumblr</a>
-	 	</div>
-		
-		<a href="http://fmwhiteboard.tumblr.com/" target="_blank" class="int_image" style="border:0; background-color: white !important;"><img src="http://static.tumblr.com/488e97d682d87c0f8ee3c987c21912a2/jqune67/72nmlu5wc/tumblr_static_wb_header.png"></a>
+  		<div class="dek">
+  			<a href="http://www.federatedmedia.net/" target="_blank">Federated Media</a> commissioned me to create a Tumblr for their company. Working with their producers, we arrived at a layout that reflected the &ldquo;whiteboard&rdquo; aesthetic they were looking for, while also including UI features such as fixed menus and infinite scroll.
+  		</div>
+  	</div>
 
-		<div class="dek">
-			
-			<a href="http://www.federatedmedia.net/" target="_blank">Federated Media</a> commissioned me to create a Tumblr for their company. Working with their producers, we arrived at a layout that reflected the &ldquo;whiteboard&rdquo; aesthetic they were looking for, while also including UI features such as fixed menus and infinite scroll.
-			 
-			
+  	<div class="theater" id="loader8">
+  	 	<div class="hed">
+  	 		<a href="http://www.thedailybeast.com/articles/2013/08/29/where-would-we-bomb.html" target="_blank">Syria: Where Would We Bomb?</a>
+  	 	</div>
+  		
+  		<a href="http://www.thedailybeast.com/articles/2013/08/29/where-would-we-bomb.html" target="_blank" class="int_image">
+        <img src="http://i.imgur.com/gH4rCAg.png">
+      </a>
 
-		</div>
-	</div>
+  		<div class="dek">
+  			By August of 2013 the U.S. administration believed the Syrian government had used chemical weapons on its own people. Rob Verger, an international reporter at <span class="newsweek">Newsweek</span> & The Daily Beast, interviewed experts on the topic, includng <a href="http://www.stratfor.com/" target="_blank">Stratfor Global Intelligence</a>, and compiled a list of potential sites the U.S. might bomb in an attack. I then created a map to display the target information. 
+  		</div>
+  	</div>
 
-	<div class="theater" id="loader8">
-	 	<div class="hed">
-	 		<a href="http://www.thedailybeast.com/articles/2013/08/29/where-would-we-bomb.html" target="_blank">Syria: Where Would We Bomb?</a>
-	 	</div>
-		
-		<a href="http://www.thedailybeast.com/articles/2013/08/29/where-would-we-bomb.html" target="_blank" class="int_image"><img src="http://i.imgur.com/gH4rCAg.png"></a>
+  	<div class="theater" id="loader9">
+  	 	<div class="hed">
+  	 		<a href="http://www.thedailybeast.com/articles/2013/09/17/the-dissident-matrix-tweets-from-underground.html" target="_blank">The Dissident Matrix: Tweets From Underground</a>
+  	 	</div>
+  		
+  		<a href="http://www.thedailybeast.com/articles/2013/09/17/the-dissident-matrix-tweets-from-underground.html" target="_blank" class="int_image">
+        <img src="http://i.imgur.com/9ejLa2R.png">
+      </a>
+  		<div class="dek">
+  			Editors at <a href="http://www.thedailybeast.com/witw.html" target="_blank">Women in the World</a> wanted a way to spotlight female dissidents who were using Twitter to get their message out. We ended building a &ldquo;hub&rdquo; consisting of what I called cards for each dissident, featuring real-time updates from their Twitter feeds.  
+  		</div>
+  	</div>
 
-		<div class="dek">
-		
-			By August of 2013 the U.S. administration believed the Syrian government had used chemical weapons on its own people. Rob Verger, an international reporter at <span class="newsweek">Newsweek</span> & The Daily Beast, interviewed experts on the topic, includng <a href="http://www.stratfor.com/" target="_blank">Stratfor Global Intelligence</a>, and compiled a list of potential sites the U.S. might bomb in an attack. I then created a map to display the target information. 
-			
-		</div>
-	</div>
-
-	<div class="theater" id="loader9">
-	 	<div class="hed">
-	 		<a href="http://www.thedailybeast.com/articles/2013/09/17/the-dissident-matrix-tweets-from-underground.html" target="_blank">The Dissident Matrix: Tweets From Underground</a>
-	 	</div>
-		
-			<a href="http://www.thedailybeast.com/articles/2013/09/17/the-dissident-matrix-tweets-from-underground.html" target="_blank" class="int_image"><img src="http://i.imgur.com/9ejLa2R.png"></a>
-		<div class="dek">
-			 
-			Editors at <a href="http://www.thedailybeast.com/witw.html" target="_blank">Women in the World</a> wanted a way to spotlight female dissidents who were using Twitter to get their message out. We ended building a &ldquo;hub&rdquo; consisting of what I called cards for each dissident, featuring real-time updates from their Twitter feeds.  
-		</div>
-	</div>
-
-
-   </div>
+  </div> <!-- ends wd_wrapper -->
  
-
 	<div style="display: block; CLEAR: both;"></div>
 
-
-
- 
- 
 	<div class="section_head" id="writing">Writing</div>
         
-        
-
-        <p>Additionally I also 
-            <a href="http://www.thedailybeast.com/contributors/sam-schlinkert.html" target="_blank">wrote articles</a> for both <span class="newsweek">Newsweek</span> and The Daily Beast.
-        	<ul>
-        	 <li><a href='http://www.thedailybeast.com/articles/2013/02/19/this-is-how-china-hacks-america-inside-the-mandiant-report.html'>&ldquo;This is How China Hack America: Inside the Mandiant Report&rdquo;</a></li>
-
-        	 <li><a href="http://www.thedailybeast.com/newsweek/2013/01/28/newsweek-interview-with-facebook-s-lars-rasmussen.html" target="_blank">An interview with Lars Rasmussen of Facebook</a>
-        	 </li>
-        	 <li><a href="http://www.thedailybeast.com/articles/2011/10/06/occupy-wall-street-protests-tech-gurus-televise-the-demonstrations.html" target="_blank">A profile of the media center at Occupy Wall Street</a>
-        	 </li>
-        	 <li><a href='http://www.thedailybeast.com/articles/2013/03/01/seven-things-to-do-on-national-day-of-unplugging.html'>&ldquo;7 Things to Do on National Day of Unplugging&rdquo;</a>
-        	 </li>
-        	</ul>
-        </p>
-        <p>
-        	More casually, I recently wrote a post on Medium about <a href="https://medium.com/adventures-in-consumer-technology/f66719075967" target="_blank">10 tech gadgets I've enjoyed using</a>. For something more poetic, check out this dreamy <a href="http://schlinkblog.tumblr.com/post/6304492430/today-june-7th-marks-the-last-day-on-the-lease" target="_blank">travel diary of a trip to Los Angeles in 2011</a>. 
-        </p>
-
- 
-
+    <p>
+      Additionally I also <a href="http://www.thedailybeast.com/contributors/sam-schlinkert.html" target="_blank">wrote articles</a> for both <span class="newsweek">Newsweek</span> and The Daily Beast.
+    	<ul>
+        <li>
+          <a href='http://www.thedailybeast.com/articles/2013/02/19/this-is-how-china-hacks-america-inside-the-mandiant-report.html'>&ldquo;This is How China Hack America: Inside the Mandiant Report&rdquo;</a>
+        </li>
+        <li>
+          <a href="http://www.thedailybeast.com/newsweek/2013/01/28/newsweek-interview-with-facebook-s-lars-rasmussen.html" target="_blank">An interview with Lars Rasmussen of Facebook</a>
+        </li>
+        <li>
+          <a href="http://www.thedailybeast.com/articles/2011/10/06/occupy-wall-street-protests-tech-gurus-televise-the-demonstrations.html" target="_blank">A profile of the media center at Occupy Wall Street</a>
+        </li>
+        <li>
+          <a href='http://www.thedailybeast.com/articles/2013/03/01/seven-things-to-do-on-national-day-of-unplugging.html'>&ldquo;7 Things to Do on National Day of Unplugging&rdquo;</a>
+        </li>
+    	</ul>
+    </p>
+    <p>
+      More casually, I recently wrote a post on Medium about <a href="https://medium.com/adventures-in-consumer-technology/f66719075967" target="_blank">10 tech gadgets I've enjoyed using</a>. For something more poetic, check out this dreamy <a href="http://schlinkblog.tumblr.com/post/6304492430/today-june-7th-marks-the-last-day-on-the-lease" target="_blank">travel diary of a trip to Los Angeles in 2011</a>. 
+    </p>
 
     <div class="section_head" id="contact">Contact</div>
-
     <p> 
     	You can email me at sschlinkert [at] gmail or @reply <a href='http://www.twitter.com/sts10' target="_blank">me on Twitter</a>. 
     </p>
  
-
-
-<!--
-<script type="text/javascript">
-            function sticky_relocate() {
-      $anchor = $("#sticky-anchor");
-      $sticky = $('#menu');
-      var window_top = $(window).scrollTop();
-      var div_top = $anchor.offset().top;
-      var sticky_height = $sticky.height();
-
-      if (window_top > div_top){
-        $sticky.addClass('stick');
-      }else{
-        $sticky.removeClass('stick');
-      }
-    }
-
-$(window).scroll(sticky_relocate)
-    </script>
-
--->
-
- 
-
-
-<!-- 
-	<script type="text/javascript">
-
-	// show first loader, hide others 
-
-	 $(document).ready(function() {
-	$('#loader0').show();
-	$('#loader1').hide();
-	$('#loader2').hide();
-	$('#loader3').hide();
-	$('#loader4').hide();
-	$('#loader5').hide();
-	$('#loader6').hide();
-	$('#loader7').hide();
-	$('#loader8').hide();
-	$('#loader9').hide();
-	    
-	 });
-
-
-	// thumbnail clicking
-
-	$('#chapter0').click(function() {
-		$('#loader0').show("slow"); 
-		$('#loader1').hide("slow");
-		$('#loader2').hide("slow");
-		$('#loader3').hide("slow");
-		$('#loader4').hide("slow");
-		$('#loader5').hide("slow");
-		$('#loader6').hide("slow");
-		$('#loader7').hide("slow");
-		$('#loader8').hide("slow");
-		$('#loader9').hide("slow");
-	});
-
-	$('#thumb1').click(function() {
-		$('#loader0').hide("slow");
-		$('#loader1').show("slow"); 
-		$('#loader2').hide("slow");
-		$('#loader3').hide("slow");
-		$('#loader4').hide("slow");
-		$('#loader5').hide("slow");
-		$('#loader6').hide("slow");
-		$('#loader7').hide("slow");
-		$('#loader8').hide("slow");
-		$('#loader9').hide("slow");
-	});
-
-	$('#thumb2').click(function() {
-		$('#loader0').hide("slow");
-		$('#loader1').hide("slow"); 
-		$('#loader2').show("slow");
-		$('#loader3').hide("slow");
-		$('#loader4').hide("slow");
-		$('#loader5').hide("slow");
-		$('#loader6').hide("slow");
-		$('#loader7').hide("slow");
-		$('#loader8').hide("slow"); 
-		$('#loader9').hide("slow");
-	});
-
-	$('#thumb3').click(function() {
-		$('#loader0').hide("slow");
-		$('#loader1').hide("slow"); 
-		$('#loader2').hide("slow");
-		$('#loader3').show("slow");
-		$('#loader4').hide("slow");
-		$('#loader5').hide("slow");
-		$('#loader6').hide("slow");
-		$('#loader7').hide("slow");
-		$('#loader8').hide("slow");
-		$('#loader9').hide("slow");
-	});
-
-	$('#thumb4').click(function() {
-		$('#loader0').hide("slow");
-		$('#loader1').hide("slow"); 
-		$('#loader2').hide("slow");
-		$('#loader3').hide("slow");
-		$('#loader4').show("slow");
-		$('#loader5').hide("slow");
-		$('#loader6').hide("slow");
-		$('#loader7').hide("slow");
-		$('#loader8').hide("slow");
-		$('#loader9').hide("slow");
-	}); 
-
-	$('#thumb5').click(function() {
-		$('#loader0').hide("slow");
-		$('#loader1').hide("slow"); 
-		$('#loader2').hide("slow");
-		$('#loader3').hide("slow");
-		$('#loader4').hide("slow");
-		$('#loader5').show("slow");
-		$('#loader6').hide("slow");
-		$('#loader7').hide("slow");
-		$('#loader8').hide("slow");
-		$('#loader9').hide("slow");
-	});
-
-	$('#thumb6').click(function() {
-		$('#loader0').hide("slow");
-		$('#loader1').hide("slow"); 
-		$('#loader2').hide("slow");
-		$('#loader3').hide("slow");
-		$('#loader4').hide("slow");
-		$('#loader5').hide("slow");
-		$('#loader6').show("slow");
-		$('#loader7').hide("slow");
-		$('#loader8').hide("slow");
-		$('#loader9').hide("slow");
-	});
-
-	$('#thumb7').click(function() {
-		$('#loader0').hide("slow");
-		$('#loader1').hide("slow"); 
-		$('#loader2').hide("slow");
-		$('#loader3').hide("slow");
-		$('#loader4').hide("slow");
-		$('#loader5').hide("slow");
-		$('#loader6').hide("slow");
-		$('#loader7').show("slow");
-		$('#loader8').hide("slow");
-		$('#loader9').hide("slow");
-	});
-
-	$('#thumb8').click(function() {
-		$('#loader0').hide("slow");
-		$('#loader1').hide("slow"); 
-		$('#loader2').hide("slow");
-		$('#loader3').hide("slow");
-		$('#loader4').hide("slow");
-		$('#loader5').hide("slow");
-		$('#loader6').hide("slow");
-		$('#loader7').hide("slow");
-		$('#loader8').show("slow");
-		$('#loader9').hide("slow");
-	});
-
-	$('#thumb9').click(function() {
-		$('#loader0').hide("slow");
-		$('#loader1').hide("slow"); 
-		$('#loader2').hide("slow");
-		$('#loader3').hide("slow");
-		$('#loader4').hide("slow");
-		$('#loader5').hide("slow");
-		$('#loader6').hide("slow");
-		$('#loader7').hide("slow");
-		$('#loader8').hide("slow");
-		$('#loader9').show("slow");
-	});
-	 
- 	
-		var $bounding_box = $('#bounding-box');
-		$('#content-box').floatingScroll($bounding_box, 'bounded');
-	
-  
-	</script>
-
---> 
 </body>
 </html>
