@@ -3,7 +3,7 @@ body {
   margin-top: 0px;
   padding-top: 0px;
   margin-bottom: 500px;
-  /*background-color: #ebebeb;*/
+  margin-left: 5%;
   font-family: helvetica, arial, sans-serif;
   line-height: 1.55555;
   font-size: 18px;
@@ -163,6 +163,7 @@ a.int_image:hover {
 @media only screen and (max-width: 650px) {
   body {
     margin-bottom: 30px;
+    margin-left: 10px;
   }
   aside {
     display: none;
