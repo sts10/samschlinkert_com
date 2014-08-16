@@ -16,11 +16,11 @@
 	 		<div class="my_name" id="my_name_for_menu">Sam Schlinkert</div>
 
 	 		<a class="button" href="#top">About</a><br>
-      <a class="button" href="#rails">Rails Web Apps</a><br>
+      <a class="button" href="#apps">Web Applications</a><br>
       <a class="button" href="#frontend">Front-End Design</a><br>
-      <a class="button" href="#games">JavaScript Games</a><br>
 			<a class="button" href="#social">Social Media Editing</a><br>
 			<a class="button" href="#writing">Writing</a><br>
+      <a class="button" href="#games">JavaScript Games</a><br>
 			<a class="button" href="#contact">Contact</a><br>
   	</div>
   </aside> 
@@ -31,20 +31,41 @@
   	<div class="my_name" id="my_name_for_mobile">Sam Schlinkert</div>
   	<div class="section_title" id="about">Hi! I&#8217;m Sam</div>
 		<p>
-			Hello! My name is Sam Schlinkert. I live in New York where I am a recent graduate of the <a href="http://flatironschool.com/" target="_blank">Flatiron School</a>, a coding bootcamp focusing on Ruby. The two years prior to that I was the Deputy Social Media Editor at <span class="newsweek">Newsweek</span> & The Daily Beast (and later solely for <a href='http://www.thedailybeast.com' target="_blank">The Daily Beast</a>).
+			Hello! My name is Sam Schlinkert. I live in New York where I am a social media editor and programmer. I'm a recent graduate of the <a href="http://flatironschool.com/" target="_blank">Flatiron School</a>, a coding bootcamp focusing on Ruby. The two years prior to that I was the Deputy Social Media Editor at <span class="newsweek">Newsweek</span> & The Daily Beast (and later solely for <a href='http://www.thedailybeast.com' target="_blank">The Daily Beast</a>).
 		</p>
 		<p>
 			I maintain a <a href="http://sts10.github.io/" target="_blank">programming blog</a> where I write about Ruby, Rails, and web development in general. You can also find me on <a href="http://www.twitter.com/sts10" target="_blank">Twitter</a>, <a href="http://github.com/sts10" target="_blank">GitHub</a>, and <a href="http://schlinkblog.tumblr.com" target="_blank">Tumblr</a>. 
 		</p>
 
-    <div class="section_title" id="rails">Ruby on Rails Web Applications</div>
+    <div class="section_title" id="apps">Web Applications</div>
     <p>
-      In the spring of 2014 I attended <a href="http://flatironschool.com/" target="_blank">The Flatiron School</a>, a coding bootcamp where I studied Ruby and Ruby on Rails. You can read about my experience and my career in web development over on <a href="http://sts10.github.io/" target="_blank">my programming blog</a>.
+      In the spring of 2014 I attended <a href="http://flatironschool.com/" target="_blank">The Flatiron School</a>, a coding bootcamp where I studied Ruby and Ruby on Rails. You can read about my experiences in web development over on <a href="http://sts10.github.io/" target="_blank">my programming blog</a>.
     </p>		
     <p>
-      I created and launched two web apps while at Flatiron: <a href="http://get-xp.com/">xp</a> and <a href="http://squawkbot.herokuapp.com/">SquawkBot</a>, as well as a Ruby Gem called <a href="https://github.com/sts10/recall">Recall</a>. 
+      I created and launched two web apps while at Flatiron: <a href="http://squawkbot.herokuapp.com/">SquawkBot</a> and <a href="http://get-xp.com/">xp</a>, as well as a Ruby Gem called <a href="https://github.com/sts10/recall">Recall</a>. 
     </p>
+    
+    <div class="project_box">
+      <div class="project_title">
+        <a href="http://squawkbot.heroku.com/" target="_blank">SquawkBot</a>
+      </div>
+      
+      <a href="http://squawkbot.heroku.com/" target="_blank" class="int_image">
+        <img src="img/squawkbot.png" style="width: 110px;">
+      </a>
 
+      <div class="project_description">
+        As a social media editor at <span class="newsweek">Newsweek</span> & The Daily Beast, we had a rule-of-thumb that if we saw one link tweeted by two different people you follow, it was probably something important. But once I started spending more and more time programming, I would miss these important links. 
+        <br><br>
+        To solve this problem, a partner and I built <a href="http://squawkbot.heroku.com/" target="_blank">SquawkBot</a>. The Rails app uses the Twitter REST API to get the last 1,000 tweets for a user's timeline and finds URLs that appear more than once. I wrote a blog post in two parts to explain our process (<a href="http://sts10.github.io/blog/2014/04/21/squawkbot-connecting-to-twitter/">part one</a>, <a href="http://sts10.github.io/blog/2014/04/24/squawkbot-part-2-extracting-urls/">part two</a>). 
+
+        <br><br>
+
+        <a href="https://github.com/sts10/squawk">View the code on GitHub</a>
+      </div>
+    </div>
+    
+    
     <div class="project_box">
       <div class="project_title">
         <a href="http://get-xp.com/" target="_blank">xp</a>
@@ -67,27 +88,11 @@
       </div>
     </div>
 
-    <div class="project_box">
-      <div class="project_title">
-        <a href="http://squawkbot.heroku.com/" target="_blank">SquawkBot</a>
-      </div>
-      
-      <a href="http://squawkbot.heroku.com/" target="_blank" class="int_image">
-        <img src="img/squawkbot.png" style="width: 110px;">
-      </a>
+    <p>
+      After finishing Flatiron School, I did some freelance consulting work for <a href="http://www.shareablee.com/" target="_blank">Shareablee</a>, a social media analytics start-up in New York. Using Python, the Flask framework, and NVD3 I analyzed how their customers used Facebook posts, displayed the information visually, and allowed potential customers to connect their insights data and compare their numbers against the compiled benchmarks. 
+    </p>
 
-      <div class="project_description">
-        As a social media editor at <span class="newsweek">Newsweek</span> & The Daily Beast, we had a rule-of-thumb that if we saw one link tweeted by two different people you follow, it was probably something important. But once I started spending more and more time programming, I would miss these important links. 
-        <br><br>
-        To solve this problem, we built <a href="http://squawkbot.heroku.com/" target="_blank">SquawkBot</a>. The Rails app uses the Twitter REST API to get the last 1,000 tweets for a user's timeline and finds URLs that appear more than once. I wrote a blog post in two parts to explain our process (<a href="http://sts10.github.io/blog/2014/04/21/squawkbot-connecting-to-twitter/">part one</a>, <a href="http://sts10.github.io/blog/2014/04/24/squawkbot-part-2-extracting-urls/">part two</a>). 
 
-        <br><br>
-
-        <a href="https://github.com/sts10/squawk">View the code on GitHub</a>
-      </div>
-    </div>
-	
-  	
     <div class="section_title" id="frontend">Front-End Web Design and Interactives</div>
   	<p>
 			<img src="http://25.media.tumblr.com/avatar_ce116ecec5ef_128.png" style="width: 70px; float:left; margin-right: 10px; margin-bottom: 5px;">At NewsBeast I was a part of an informal group called <a href="http://newsbeastlabs.tumblr.com/" target="_blank">Newsbeast Labs</a> that produced interactives to add depth to news stories. These interactives included maps, charts, graphics... anything that went beyond standard text and photos. In December of 2012 the Labs group was <a href="http://www.adweek.com/news/technology/what-newsweeks-digital-future-will-look-145942" target="_blank">interviewed for AdWeek</a>. 
@@ -95,7 +100,7 @@
 			While my official title at Newsbeast was Deputy Social Media Editor, I very much enjoyed working with editors and reporters to make their stories more meaningful through the use of basic front-end web design.
 
 			<br><br>
-			I've also designed some Tumblrs and websites, both for <span class="newsweek">Newsweek</span> & The Daily Beast and as a freelance designer.
+			I've also designed some Tumblrs and websites, both for <span class="newsweek">Newsweek</span> & The Daily Beast and as a freelance designer. For more of my front-end work, checkout my <a href="#games">JavaScript Games section</a>.
 
 			<br><br>
   			 
@@ -247,55 +252,7 @@
     	</div>
 
     </div> <!-- ends wd_wrapper -->
-  <div style="display: block; CLEAR: both;"></div>
-
-
-  <div class="section_title" id="games">JavaScript Games</div>
-    <p>
-      Here are a few little games I've built using JavaScript and jQuery. Some of them are works-in-progress, but each one has a few good snippets of code.  
-    </p>
-    <div id="wd_wrapper" style="margin-top:20px;">
-
-      <div class="project_box">
-        <div class="project_title">
-          <a href="http://samschlinkert.com/contract/" target="_blank">Contract Rummy Score Card</a>
-        </div>
-
-        <div class="project_description">
-          My extended family has a long tradition of playing an eccentric version of gin rummy called "Contract." Keeping score can be a bit involved, so I used jQuery to make an interactive score card. 
-          <br><br>
-          <a href="http://sts10.github.io/blog/2014/05/21/interactive-score-card/">Read my blog post about this project</a> / <a href="https://github.com/sts10/contract_score_card">View the code on GitHub</a>
-        </div>
-      </div>
-
-
-      <div class="project_box">
-        <div class="project_title">
-          <a href="http://samschlinkert.com/tic_tac/" target="_blank">Tic-Tac-Toe</a>
-        </div>
-
-        <div class="project_description">
-          Users can choose to play against two computer players of differing skill. Watch out for Alfred... he's tricky.
-        </div>
-      </div>
-
-      <div class="project_box">
-        <div class="project_title">
-          <a href="http://samschlinkert.com/strike9/" target="_blank">Strike 9</a>
-        </div>
-
-        <a href="http://samschlinkert.com/strike9/" target="_blank" class="int_image">
-          <img src="http://dl.dropboxusercontent.com/s/7zc1bor2m3sr7wv/2014-05-30%20at%2012.02%20AM.png" style="border:0; width:130px;"> 
-        </a>
-
-        <div class="project_description">
-          A frustrating little game where the objective is to run out of numbered squares. As a challenge to myself I didn't use jQuery. Writing the code to figure out when the user had lost was a fun puzzle, involving a lot of array manipulation.   
-          <br><br>
-          <a href="http://sts10.github.io/blog/2014/05/30/strike-9-game/">Read my blog post about this project</a> / <a href="https://github.com/sts10/strike-9">View the code on GitHub</a>
-        </div>
-      </div>
-
-    </div> <!-- ends wd_wrapper -->
+  
 
 
   	<div style="display: block; CLEAR: both;"></div>
@@ -355,6 +312,55 @@
       More casually, I wrote a post on Medium about <a href="https://medium.com/adventures-in-consumer-technology/f66719075967" target="_blank">10 tech gadgets I've enjoyed using</a>. For something more poetic, check out this dreamy <a href="http://schlinkblog.tumblr.com/post/6304492430/today-june-7th-marks-the-last-day-on-the-lease" target="_blank">travel diary of a trip to Los Angeles in 2011</a>. 
     </p>
     
+    <div style="display: block; CLEAR: both;"></div>
+
+
+    <div class="section_title" id="games">JavaScript Games</div>
+      <p>
+        Here are a few little games I've built using JavaScript and jQuery. Some of them are works-in-progress, but each one has a few good snippets of code.  
+      </p>
+      <div id="wd_wrapper" style="margin-top:20px;">
+
+        <div class="project_box">
+          <div class="project_title">
+            <a href="http://samschlinkert.com/contract/" target="_blank">Contract Rummy Score Card</a>
+          </div>
+
+          <div class="project_description">
+            My extended family has a long tradition of playing an eccentric version of gin rummy called "Contract." Keeping score can be a bit involved, so I used jQuery to make an interactive score card. 
+            <br><br>
+            <a href="http://sts10.github.io/blog/2014/05/21/interactive-score-card/">Read my blog post about this project</a> / <a href="https://github.com/sts10/contract_score_card">View the code on GitHub</a>
+          </div>
+        </div>
+
+
+        <div class="project_box">
+          <div class="project_title">
+            <a href="http://samschlinkert.com/tic_tac/" target="_blank">Tic-Tac-Toe</a>
+          </div>
+
+          <div class="project_description">
+            Users can choose to play against two computer players of differing skill. Watch out for Alfred... he's tricky.
+          </div>
+        </div>
+
+        <div class="project_box">
+          <div class="project_title">
+            <a href="http://samschlinkert.com/strike9/" target="_blank">Strike 9</a>
+          </div>
+
+          <a href="http://samschlinkert.com/strike9/" target="_blank" class="int_image">
+            <img src="http://dl.dropboxusercontent.com/s/7zc1bor2m3sr7wv/2014-05-30%20at%2012.02%20AM.png" style="border:0; width:130px;"> 
+          </a>
+
+          <div class="project_description">
+            A frustrating little game where the objective is to run out of numbered squares. As a challenge to myself I didn't use jQuery. Writing the code to figure out when the user had lost was a fun puzzle, involving a lot of array manipulation.   
+            <br><br>
+            <a href="http://sts10.github.io/blog/2014/05/30/strike-9-game/">Read my blog post about this project</a> / <a href="https://github.com/sts10/strike-9">View the code on GitHub</a>
+          </div>
+        </div>
+
+      </div> <!-- ends wd_wrapper -->
 
     <div class="section_title" id="contact">Contact</div>
     <p> 
