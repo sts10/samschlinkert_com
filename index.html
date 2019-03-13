@@ -1,10 +1,12 @@
-<html>
+<!DOCTYPE html>
+<html lang="en"> 
 <head>
-	<!--<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0">-->
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
 	<title>Sam Schlinkert</title>
 	<link rel="shortcut icon" href="favicon.ico" />
   <link rel="stylesheet" type="text/css" href="css/styles.css">
-	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+	<!-- <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> -->
+  <script type="text/javascript" src="js/jquery-3.3.1.min.js"></script>
   <script type="text/javascript" src="js/slow_scroll.js"></script>
 
 </head>
@@ -20,7 +22,6 @@
       <a class="button" href="#frontend">Front-End Design</a><br>
 			<a class="button" href="#social">Social Media Editing</a><br>
 			<a class="button" href="#writing">Writing</a><br>
-      <a class="button" href="#games">JavaScript Games</a><br>
 			<a class="button" href="#contact">Contact</a><br>
   	</div>
   </aside> 
@@ -29,135 +30,70 @@
   <div id="main">
     	
   	<div class="my_name" id="my_name_for_mobile">Sam Schlinkert</div>
-  	<div class="section_title" id="about">Hi! I&#8217;m Sam</div>
+    <h2 class="section_title" id="about">Hi! I&#8217;m Sam</h2>
 		<p>
-      Hello! My name is Sam Schlinkert. I live in New York where I am a social media editor and programmer. I'm currently employed as a Social Media Producer at <a href="https://www.cnn.com/" target="_blank">CNN</a>, focusing mainly on publishing to Facebook and social media analytics. 
+      Hello! My name is Sam Schlinkert. I live in New York where I am a social media editor and programmer. I'm currently employed as a Social Media Producer at <a href="https://www.cnn.com">CNN</a>, focusing mainly on publishing to Facebook and social media analytics. I also write code sometimes.
     </p>
     <p>
-      Previously, I held similar social media roles at both <a href="https://www.buzzfeed.com/news" target="_blank">BuzzFeed News</a> and <span class="newsweek">Newsweek</span> & <a href='https://www.thedailybeast.com' target="_blank">The Daily Beast</a>.
+      Previously, I held similar social media roles at both <a href="https://www.buzzfeed.com/news">BuzzFeed News</a> and <span class="newsweek">Newsweek</span> & <a href='https://www.thedailybeast.com'>The Daily Beast</a>.
     </p>
     <p>
-      I'm also a graduate of the <a href="https://flatironschool.com/" target="_blank">Flatiron School</a>, a coding bootcamp working with the Ruby programming language. And before that I was the Deputy Social Media Editor at 
-		</p>
-		<p>
-		  You can find me on <a href="http://www.twitter.com/sts10" target="_blank">Twitter</a>, <a href="http://github.com/sts10" target="_blank">GitHub</a>, and <a href="https://www.linkedin.com/in/samschlinkert" target="_blank">LinkedIn</a>. From time to time I post to a <a href="https://sts10.github.io/" target="_blank">blog</a> where I write about books, text editors, code, etc.
+		  You can find me on <a href="https://www.twitter.com/sts10">Twitter</a>, <a href="https://github.com/sts10">GitHub</a>, <a href="https://octodon.social/@schlink">Mastodon</a>,and <a href="https://www.linkedin.com/in/samschlinkert">LinkedIn</a>. From time to time I post to a <a href="https://sts10.github.io/">blog</a> where I write about books, text editors, code, etc.
 		</p>
 
-    <div class="section_title" id="code">Code</div>
-    
-    <p>
-      I was introduced to Ruby and Ruby on Rails in 2014 when I attended <a href="https://flatironschool.com/" target="_blank">The Flatiron School</a>, a coding bootcamp. Below are some of my favorite projects I've built since then. You can read about my experiences in web development over on <a href="https://sts10.github.io/" target="_blank">my programming blog</a>.
-    </p>
-
-    <div class="project_box">
-      <div class="project_title">
-        <a href="https://github.com/sts10/radiation" target="_blank">Radiation</a>
-      </div>
-      
-      <a href="https://github.com/sts10/radiation" target="_blank" class="int_image">
-        <img src="img/radiation.png" style="width: 110px;">
-      </a>
-
-      <div class="project_description">
-        In early October of 2014, I became fascinated with Tilde Clubs, a name for shared UNIX servers in-part <a href="https://medium.com/message/tilde-club-i-had-a-couple-drinks-and-woke-up-with-1-000-nerds-a8904f0a2ebf">coined by Paul Ford</a>. I quickly joined one of these clubs called totallynuclear.club (it's since been taken down) and eventually developed a basic blog CMS that I called <a href="https://github.com/sts10/radiation">Radiation</a>. It's a simple command line interface written in Ruby that allows users to create posts in Markdown or HTML, then publish these posts in reverse-chronological order to an index.html file.
-        <br><br>
-        It was a wonderful and very rewarding experience to have others use my program, suggest improvements, and submit pull requests. Since then I've only become more interested in open source code and the communities around such projects.
-        <br><br>
-
-        <a href="https://github.com/sts10/radiation">View the code on GitHub</a>
-      </div>
-    </div>
-    
-    <div class="project_box">
-      <div class="project_title">
-        <a href="http://squawkbot.heroku.com/" target="_blank">SquawkBot</a>
-      </div>
-      
-      <a href="http://squawkbot.heroku.com/" target="_blank" class="int_image">
-        <img src="img/squawkbot.png" style="width: 110px;">
-      </a>
-
-      <div class="project_description">
-        As a social media editor at <span class="newsweek">Newsweek</span> & The Daily Beast, we had a rule-of-thumb that if we saw one link tweeted by two different people you follow, it was probably something important. But once I started spending more and more time programming, I would miss these important links. 
-        <br><br>
-        To solve this problem, a partner and I built <a href="http://squawkbot.heroku.com/" target="_blank">SquawkBot</a>. (Note: The app may be down until I re-launch it on Heroku or elsewhere.) This Rails app uses the Twitter REST API to get the last 1,000 tweets for a user's timeline and finds URLs that appear more than once. I wrote a blog post in two parts to explain our process (<a href="https://sts10.github.io/2014/04/21/squawkbot-connecting-to-twitter.html">part one</a>, <a href="https://sts10.github.io/2014/04/24/squawkbot-part-2-extracting-urls.html">part two</a>). 
-
-        <br><br>
-
-        <a href="https://github.com/sts10/squawk">View the code on GitHub</a>
-      </div>
-    </div>
-    
-    
-    <div class="project_box">
-      <div class="project_title">
-        <a href="http://get-xp.com/" target="_blank">xp</a>
-      </div>
-      
-      <a href="http://get-xp.com/" target="_blank" class="int_image">
-        <img src="img/xp_home.png">
-      </a>
-
-      <div class="project_description">
-        A fellow student and I set out to make a Skillshare-like platform for the Flatiron community. XP is a Ruby on Rails web app that allows users to create lessons-- either as a student or a teacher. 
-
-        <br><br>
-
-        Users can also search for upcoming lessons using a select box I built using <a href="https://sts10.github.io/2014/04/02/chosen.html">Chosen</a>, a jQuery library. We also implemented the Rails <a href="https://sts10.github.io/2014/04/12/data-remote-true.html">"data-remote true" pattern</a> to post lesson comments using AJAX. Almost all of the app was built using test-driven development. Currently most of the app's functionality is only accessible to members of the Flatiron community, however you can <a href="https://vimeo.com/92742438">watch a demo</a>. 
-
-        <br><br>
-
-        <a href="https://github.com/kronosapiens/xp">View the code on GitHub</a>
-      </div>
-    </div>
-
-    <p>
-    After finishing Flatiron School, I did some freelance consulting work for <a href="http://www.shareablee.com/" target="_blank">Shareablee</a>, a social media analytics start-up in New York. Using Python, <a href="http://flask.pocoo.org/" target="_blank">the Flask framework</a>, the Facebook Graph API, and <a href="http://nvd3.org/" target="_blank">NVD3</a> I analyzed how their customers used Facebook posts, then created a web application to display the information visually and allow potential customers to connect their Facebook data and compare their numbers against the compiled benchmarks. 
-    </p>
+    <h2 class="section_title" id="code">Code</h2>
+     <p>Here are some of my favorite coding projects from over the years, sorted by language. You can browse <a href="https://sts10.github.io/">my coding blog</a> for more examples.  </p>
+      <h3>Rust Command Line Tools</h3>
+      <ul> 
+        <li><a href="https://github.com/sts10/medic">Medic</a>: A command-line tool that checks the passwords of a KeePass database against a list of breached password hashes, like the one offered by <a href="https://haveibeenpwned.com/">HaveIBeenPwned</a>. Here's <a href="https://sts10.github.io/2019/02/01/medic.html">a blog post I wrote about it</a>.</li>
+        <li><a href="https://github.com/sts10/compound-passphrase-list-safety-checker">Compound Passphrase List Safety Checker</a>: A command-line tool that checks a passphrase word list for words that can be combined such that they can be guessed in two distinct ways. <a href="https://sts10.github.io/2018/05/05/compound-passphrase-list-safety-checker.html">This blog post</a> hopefully helps explain what I mean by that.</li>
+        <li><a href="https://cnn.com/2018/10/20/politics/most-popular-russian-campaign-trolls/index.html">Analysis of Russian troll Twitter data</a>: For CNN, I used Rust to do some analysis of a cache of 9 million tweets that Twitter claims were sent by Russia's Internet Research Agency.</li>
+        <li><a href="https://github.com/sts10/family_gift_list_maker">Family Gift List Maker</a>: A command-line tool that generates a randomized list of gift assignments for a group of people</li>
+      </ul>
+      <h3>JavaScript Games</h3>
+      <ul>
+        <li><a href="http://samschlinkert.com/tic_tac/">Tic-Tac-Toe</a>: Play the "computer" in tic-tac-toe. (Years later, I wrote <a href="https://github.com/sts10/rusty-tac">a tic-tac-toe game in Rust</a>.)</li>
+        <li><a href="http://samschlinkert.com/strike9/">Strike 9</a>: A frustrating little puzzle game. I wrote <a href="https://sts10.github.io/2014/05/30/strike-9-game.html">a blog post about the deceptively tricky functions involved</a>.</li>
+        <li><a href="http://samschlinkert.com/switch/">Switch</a>: Get the red circles to the right and the blue circles to the left in the fewest number of moves possible.</li>
+        <li><a href="http://samschlinkert.com/contract">Contract Rummy Score Card</a>: An interactive scorecard for a difficult-to-keep-track-of card game</li>
+      </ul>
+      <h3>Ruby and Rails</h3>
+      <ul>
+        <li><a href="https://github.com/sts10/radiation">Radiation</a>: A blog-publishing engine designed for <a href="https://medium.com/message/tilde-club-i-had-a-couple-drinks-and-woke-up-with-1-000-nerds-a8904f0a2ebf">"Tilde Clubs"</a></li>
+        <li><a href="https://github.com/sts10/squawk">SquawkBot</a>: A Ruby on Rails web application that surfaced URLs that more than one of your follows tweeted. (Sort of like Nuzzel.)</li>
+      </ul>
+      <h3>Python and Flask</h3>
+      <ul>
+        <li>For <a href="https://www.shareablee.com/">Shareablee</a>, I used Python and the Facebook Graph API to analyze how their customers used Facebook and displayed this data using <a href="http://nvd3.org/">NVD3</a>. I then used <a href="https://github.com/pallets/flask">the Flask framework</a> to create a web application that allowed potential customers to share their Facebook data and compare their page against the compiled benchmark of the current customers.</li>
+      </ul>
 
 
-    <div class="section_title" id="frontend">Front-End Web Design and Interactives</div>
+    <h2 class="section_title" id="frontend">Front-End Web Design and Interactives</h2>
   	<p>
-    <img src="http://25.media.tumblr.com/avatar_ce116ecec5ef_128.png" style="width: 70px; float:left; margin-right: 10px; margin-bottom: 5px;">At <span class="newsweek">Newsweek</span> & The Daily Beast I was a part of an informal group called <a href="http://newsbeastlabs.tumblr.com/" target="_blank">Newsbeast Labs</a> that produced interactives to add depth to news stories. These interactives included maps, charts, graphics... anything that went beyond standard text and photos. In December of 2012 the Labs group was <a href="http://www.adweek.com/news/technology/what-newsweeks-digital-future-will-look-145942" target="_blank">interviewed for AdWeek</a>. 
-			<br><br>
-			While my official title at Newsbeast was Deputy Social Media Editor, I very much enjoyed working with editors and reporters to make their stories more meaningful through the use of basic front-end web design.
-
-			<br><br>
-			I've also designed some Tumblrs and websites, both for <span class="newsweek">Newsweek</span> & The Daily Beast and as a freelance designer. For more of my front-end work, checkout my <a href="#games">JavaScript Games section</a>.
-
-			<br><br>
-  			 
-  	</p>
-          
+      <img src="http://25.media.tumblr.com/avatar_ce116ecec5ef_128.png" style="width: 70px; float:left; margin-right: 10px; margin-bottom: 5px;">At <span class="newsweek">Newsweek</span> & The Daily Beast I was a part of <a href="http://www.adweek.com/news/technology/what-newsweeks-digital-future-will-look-145942">an informal group</a> that produced interactives to add depth to news stories. 
+    </p> 
   	<div id="wd_wrapper" style="margin-top:20px;">
       <div class="project_box">
 
-        <div class="project_title">
-        	<a href="http://www.thedailybeast.com/articles/2013/09/09/syria-resolution-in-congress-tracking-the-vote-interactive.html" target="_blank">Tracking the Syria Vote</a>
-        </div>
+        <h3 class="project_title">
+        	<a href="http://www.thedailybeast.com/articles/2013/09/09/syria-resolution-in-congress-tracking-the-vote-interactive.html">Tracking the Syria Vote</a>
+        </h3>
 
-        <a href="http://www.thedailybeast.com/articles/2013/09/09/syria-resolution-in-congress-tracking-the-vote-interactive.html" target="_blank" class="int_image">
-        	<img src="http://i.imgur.com/wIQfCQd.png"> 
+        <a href="http://www.thedailybeast.com/articles/2013/09/09/syria-resolution-in-congress-tracking-the-vote-interactive.html" class="int_image">
+        	<img src="http://i.imgur.com/wIQfCQd.png" class="int_image">
         </a>
 
         <div class="project_description">
         	In September of 2013 Congress was gearing up for a vote on whether to use military force against Syria's President Assad. Editors at The Daily Beast wanted a graphical way to represent different politicians&#8217; views on the issue. 
-        	<br><br>
-        	For this project I started with code written by Michael Keller, a former co-worker, for a <a href="http://www.thedailybeast.com/articles/2013/06/12/michael-moore-glenn-beck-more-edward-snowden-opinions-interactive.html" target="_blank">project that displayed differing opinions on Edward Snowden</a>.  
-        	<br><br>
-        	This interactive has some cool things going on behind the scenes. Using the <a href="http://misoproject.com/">Miso Project</a>, it pulls information from an associated CSV spreadsheet. <br><BR>
-        	<IMG SRC="http://i.imgur.com/tSM8vjE.png" style="border: 1px solid #000; width:50%; float:right; margin: 3px 0 5px 15px;">
-        		
-        	The spreadsheet has a unique row for each person, with columns for name, title, image location, x and y positions on the grid, and any information displayed in the hover windows. By using Miso in this way, it's easier for those not comfortable editing code to create and edit the content of the interactive using Excel or Google Docs. 
         </div>
       </div>
       
      <!--  <div class="project_box">
-    		<div class="project_title">
-    			<a href="http://picturedept.tumblr.com/" target="_blank">Picture Dept Tumblr</a>
-    		</div>
+    		<h3 class="project_title">
+    			<a href="http://picturedept.tumblr.com/">Picture Dept Tumblr</a>
+    		</h3>
   		
-  			<a href="http://picturedept.tumblr.com/" target="_blank" class="int_image">
+  			<a href="http://picturedept.tumblr.com/">
   				<img src="http://24.media.tumblr.com/tumblr_maax8btTk31rubv0yo1_r1_1280.jpg">
   			</a>
     		<div class="project_description">
@@ -170,59 +106,51 @@
       </div>
  -->
     	<div class="project_box">
-    	 	<div class="project_title">
-    	 		<a href="http://www.thedailybeast.com/articles/2013/08/01/the-mcpoverty-calculator.html" target="_blank">McPoverty Calculator</a>
-    	 	</div>
+    	 	<h3 class="project_title">
+    	 		<a href="http://www.thedailybeast.com/articles/2013/08/01/the-mcpoverty-calculator.html">McPoverty Calculator</a>
+    	 	</h3>
     	
-    		<a href="http://www.thedailybeast.com/articles/2013/08/01/the-mcpoverty-calculator.html" target="_blank" class="int_image">
+    		<a href="http://www.thedailybeast.com/articles/2013/08/01/the-mcpoverty-calculator.html" class="int_image">
     				<!--<img src="http://i.imgur.com/YJdOdfE.png"> -->
     				<img src="http://www.mcdonalds.com/content/dam/McDonalds/item/mcdonalds-Big-Mac.png" style="width:25%; border:0;">
     		</a>
     		<div class="project_description">
     			Amid the mass-walks outs and protests over low wages in the fast-food industry that took place in the summer of 2013, I worked with a reporter and editor at The Daily Beast to look into the relationship between fast-food prices and employee pay. 
-    			<br><br>
-    			After consulting two economists, I developed a little app that allows users to select how much more they'd be willing to pay for a Big Mac. Once the user selects a value, they automatically see how much above the $7.25 minimum wage workers can make as a result, and whether that gets them over the official poverty line.
-    			<br><br>
-          I wrote <a href="http://newsbeastlabs.tumblr.com/post/58247528927/this-month-saw-big-news-from-the-fast-food" target="_blank">a lengthy post on the Newsbeast Labs Tumblr</a> detailing how I approached and executed the project.
     		</div>
     	</div>
 
     	<div class="project_box">
-    	 	<div class="project_title">
-    	 		<a href="http://newsbeastlabs.thedailybeast.com/projects/death-by-indifference/" target="_blank">Death by Indifference</a>
-    	 	</div>
+    	 	<h3 class="project_title">
+    	 		<a href="http://newsbeastlabs.thedailybeast.com/projects/death-by-indifference/">Death by Indifference</a>
+    	 	</h3>
     		
-    		<a href="http://newsbeastlabs.thedailybeast.com/projects/death-by-indifference/" target="_blank" class="int_image">
+    		<a href="http://newsbeastlabs.thedailybeast.com/projects/death-by-indifference/" class="int_image">
           <img src="http://newsbeastlabs.thedailybeast.com/projects/death-by-indifference/imgs/slideshow/L1011193-Edit.jpg">
         </a>
 
     		<div class="project_description">
-    			For this project the Newsbeast Labs team worked with videographer and former <span class="newsweek">Newsweek</span> & Daily Beast Senior Producer Gregory Gilderman. With support from the <a href="http://pulitzercenter.org/" target="_blank">Pulitzer Center on Crisis Reporting</a>, Gregory traveled to Russia to document the AIDS epidemic occurring there.
-    			<br><br>
-    			Our task was to design and create a stand-alone site that best presented his work. For more information, you can read <a href="http://newsbeastlabs.tumblr.com/post/54445527683/today-we-published-our-first-daily-beast" target="_blank">our Newsbeast Labs Tumblr post about the process</a>.
+    			For this project the Newsbeast Labs team worked with videographer and former <span class="newsweek">Newsweek</span> & Daily Beast Senior Producer Gregory Gilderman. With support from the <a href="http://pulitzercenter.org/">Pulitzer Center on Crisis Reporting</a>, Gregory traveled to Russia to document the AIDS epidemic occurring there.
     		</div>
     	</div>
 
     	<div class="project_box">
-    	 	<div class="project_title">
-    	 		<a href="http://www.thedailybeast.com/articles/2013/10/28/hurricane-sandy-before-and-after.html" target="_blank">Hurricane Sandy: Then and Now</a>
-    	 	</div>
+    	 	<h3 class="project_title">
+    	 		<a href="http://www.thedailybeast.com/articles/2013/10/28/hurricane-sandy-before-and-after.html">Hurricane Sandy: Then and Now</a>
+    	 	</h3>
     		
-    		<a href="http://www.thedailybeast.com/articles/2013/10/28/hurricane-sandy-before-and-after.html" target="_blank" class="int_image">
+    		<a href="http://www.thedailybeast.com/articles/2013/10/28/hurricane-sandy-before-and-after.html" class="int_image">
           <img src="http://samschlinkert.com/img/hurricane.png">
         </a>
 
     		<div class="project_description">
     			On the one-year anniversary of Hurricane Sandy hitting the east coast, The Daily Beast photo editors wanted a way to show how well we've rebuilt. We decided that using a slider to drag between two photos taken from the same perspective a year apart would be the best way to do this. 
-    			<br><br>
-    			After a Google search for a handy <a href="http://www.catchmyfame.com/catchmyfame-jquery-plugins/jquery-beforeafter-plugin/" target="_new">jQuery plugin</a> we were in business in just a few hours. 
     		</div>
     	</div>
    <!-- 
      	<div class="project_box">
-    	 	<div class="project_title">
-    	 		<a href="http://joshruxin.tumblr.com/" target="_blank">Josh Ruxin Personal Website</a>
-    	 	</div>
+    	 	<h3 class="project_title">
+    	 		<a href="http://joshruxin.tumblr.com/">Josh Ruxin Personal Website</a>
+    	 	</h3>
     		
     			<a href="http://joshruxin.tumblr.com/" target="_blank" class="int_image">
             <img src="http://i.imgur.com/PV7t5m3.jpg" style="width:18%; border:0;">
@@ -234,37 +162,38 @@
     	</div> -->
 
     	<!-- <div class="project_box">
-    	 	<div class="project_title">
-    	 		<a href="http://fmwhiteboard.tumblr.com/" target="_blank">Federated Media's Whiteboard Tumblr</a>
-    	 	</div>
+    	 	<h3 class="project_title">
+    	 		<a href="http://fmwhiteboard.tumblr.com/">Federated Media's Whiteboard Tumblr</a>
+    	 	</h3>
     		
     		<a href="http://fmwhiteboard.tumblr.com/" target="_blank" class="int_image" style="border:0; background-color: white !important;">
           <img src="http://static.tumblr.com/488e97d682d87c0f8ee3c987c21912a2/jqune67/72nmlu5wc/tumblr_static_wb_header.png">
         </a>
 
     		<div class="project_description">
-    			<a href="http://www.federatedmedia.net/" target="_blank">Federated Media</a> commissioned me to create a Tumblr for their company. Working with their producers, we arrived at a layout that reflected the &ldquo;whiteboard&rdquo; aesthetic they were looking for, while also including UI features such as fixed menus and infinite scroll.
+    			<a href="http://www.federatedmedia.net/">Federated Media</a> commissioned me to create a Tumblr for their company. Working with their producers, we arrived at a layout that reflected the &ldquo;whiteboard&rdquo; aesthetic they were looking for, while also including UI features such as fixed menus and infinite scroll.
     		</div>
     	</div> -->
 
     	<div class="project_box">
-    	 	<div class="project_title">
-    	 		<a href="http://www.thedailybeast.com/articles/2013/08/29/where-would-we-bomb.html" target="_blank">Syria: Where Would We Bomb?</a>
-    	 	</div>
+    	 	<h3 class="project_title">
+    	 		<a href="http://www.thedailybeast.com/articles/2013/08/29/where-would-we-bomb.html">Syria: Where Would We Bomb?</a>
+    	 	</h3>
     		
-    		<a href="http://www.thedailybeast.com/articles/2013/08/29/where-would-we-bomb.html" target="_blank" class="int_image">
+    		<a href="http://www.thedailybeast.com/articles/2013/08/29/where-would-we-bomb.html"  class="int_image">
           <img src="http://i.imgur.com/gH4rCAg.png">
         </a>
 
     		<div class="project_description">
-    			By August of 2013 the U.S. administration believed the Syrian government had used chemical weapons on its own people. Rob Verger, an international reporter at <span class="newsweek">Newsweek</span> & The Daily Beast, interviewed experts on the topic, including <a href="http://www.stratfor.com/" target="_blank">Stratfor Global Intelligence</a>, and compiled a list of potential sites the U.S. might bomb in an attack. I then created a map to display the target information. 
+    			By August of 2013 the U.S. administration believed the Syrian government had used chemical weapons on its own people. Rob Verger, an international reporter at <span class="newsweek">Newsweek</span> & The Daily Beast, interviewed experts on the topic, including <a href="http://www.stratfor.com/">Stratfor Global Intelligence</a>, and compiled a list of potential sites the U.S. might bomb in an attack. I then created a map to display the target information. 
     		</div>
     	</div>
 
-    	<div class="project_box">
-    	 	<div class="project_title">
+    	<!--
+       <div class="project_box">
+    	 	<h3 class="project_title">
     	 		<a href="http://www.thedailybeast.com/articles/2013/09/17/the-dissident-matrix-tweets-from-underground.html" target="_blank">The Dissident Matrix: Tweets From Underground</a>
-    	 	</div>
+    	 	</h3>
     		
     		<a href="http://www.thedailybeast.com/articles/2013/09/17/the-dissident-matrix-tweets-from-underground.html" target="_blank" class="int_image">
           <img src="http://i.imgur.com/9ejLa2R.png">
@@ -274,18 +203,20 @@
     		</div>
     	</div>
 
+      -->
+
     </div> <!-- ends wd_wrapper -->
   
 
 
   	<div style="display: block; CLEAR: both;"></div>
 
-    <div class="section_title" id="social">Social Media Editing</div>
+    <h2 class="section_title" id="social">Social Media Editing</h2>
     <p>
-    I am currently a Social Media Producer at <a href="http://www.cnn.com/" target="_blank">CNN</a>, where I primarily work with <a href="https://www.facebook.com/cnn">CNN's flagship Facebook account</a>. I also compile and analyze social media analytics using various tools, including some I've built myself.
+      I am currently a Social Media Producer at <a href="http://www.cnn.com/">CNN</a>, where I primarily work with <a href="https://www.facebook.com/cnn">CNN's flagship Facebook account</a>. I also compile and analyze social media analytics using various tools, including some I've built myself using both Rust and Ruby.
     </p>
     <p>
-    Previously I held similar positions at BuzzFeed News and <span class="newsweek">Newsweek</span> & The Daily Beast, focusing on running both organizations' Twitter and Facebook accounts.
+      Previously I held similar positions at BuzzFeed News and <span class="newsweek">Newsweek</span> & The Daily Beast, focusing on running both organizations' Twitter and Facebook accounts.
     </p>
     <!--<p>-->
       <!--My responsibilities at The Daily Beast included:-->
@@ -307,7 +238,7 @@
 
 
     <p>
-      In 2013 our small social team at The Beast was <a href="http://winners.webbyawards.com/2013/social/social-content-and-marketing/news-information/the-daily-beast-social" target="_blank">nominated for a Webby</a> in the News &amp; Information category. The Daily Beast was also named one of <a href="http://mashable.com/2013/11/14/brands-on-tumblr/">"15 Brands Rocking Tumblr"</a> by Mashable in November of 2013 thanks to <a href="http://cheatsheet.tumblr.com/">The Cheat Sheet</a>.
+      In 2013 our small social team at The Beast was <a href="http://winners.webbyawards.com/2013/social/social-content-and-marketing/news-information/the-daily-beast-social">nominated for a Webby</a> in the News &amp; Information category. The Daily Beast was also named one of <a href="http://mashable.com/2013/11/14/brands-on-tumblr/">"15 Brands Rocking Tumblr"</a> by Mashable in November of 2013 thanks to <a href="http://cheatsheet.tumblr.com/">The Cheat Sheet</a>.
     </p>
    
     <!--
@@ -316,21 +247,21 @@
     </p>
     -->
 
-  	<div class="section_title" id="writing">Writing</div>
+  	<h2 class="section_title" id="writing">Writing</h2>
     <p>
       You can read my most recent, more technical writing on my GitHub-hosted <a href="https://sts10.github.io/">blog</a>, including <a href="https://sts10.github.io/2017/06/27/keepassxc-setup-guide.html">a guide for using a password manager</a> and an overview of <a href="https://sts10.github.io/2016/02/12/best-of-my-vimrc.html">my Vim configuration</a>.
     </p>
     <p>
-      While at <span class="newsweek">Newsweek</span> and The Daily Beast I <a href="http://www.thedailybeast.com/contributors/sam-schlinkert.html" target="_blank">reported a few articles</a>. Here are some favorites: 
+      While at <span class="newsweek">Newsweek</span> and The Daily Beast I <a href="http://www.thedailybeast.com/contributors/sam-schlinkert.html">reported a few articles</a>. Here are some favorites: 
     	<ul>
         <li>
           <a href='http://www.thedailybeast.com/articles/2013/02/19/this-is-how-china-hacks-america-inside-the-mandiant-report.html'>&ldquo;This is How China Hacks America: Inside the Mandiant Report&rdquo;</a>
         </li>
         <li>
-          <a href="http://www.thedailybeast.com/newsweek/2013/01/28/newsweek-interview-with-facebook-s-lars-rasmussen.html" target="_blank">An interview with Lars Rasmussen of Facebook</a>
+          <a href="http://www.thedailybeast.com/newsweek/2013/01/28/newsweek-interview-with-facebook-s-lars-rasmussen.html">An interview with Lars Rasmussen of Facebook</a>
         </li>
         <li>
-          <a href="http://www.thedailybeast.com/articles/2011/10/06/occupy-wall-street-protests-tech-gurus-televise-the-demonstrations.html" target="_blank">A profile of the media center at Occupy Wall Street</a>
+          <a href="http://www.thedailybeast.com/articles/2011/10/06/occupy-wall-street-protests-tech-gurus-televise-the-demonstrations.html">A profile of the media center at Occupy Wall Street</a>
         </li>
         <li>
           <a href='http://www.thedailybeast.com/articles/2013/03/01/seven-things-to-do-on-national-day-of-unplugging.html'>&ldquo;7 Things to Do on National Day of Unplugging&rdquo;</a>
@@ -338,86 +269,17 @@
     	</ul>
     </p>
     <p>
-    More casually, I've written posts on Medium about <a href="https://medium.com/adventures-in-consumer-technology/f66719075967" target="_blank">10 tech gadgets I've enjoyed using</a>, <a href="https://medium.com/@sts10/why-i-want-text-file-preferences-for-every-application-i-use-72c368f9b6fd#.bsrhfxdj9" target="_blank">a call for text-file preferences</a>, and <a href="https://medium.com/adventures-in-consumer-technology/my-latest-obsession-mechanical-keyboards-ef9e28089327" target="_blank">mechanical keyboards</a>. And for something more poetic, check out this dreamy <a href="http://schlinkblog.tumblr.com/post/6304492430/today-june-7th-marks-the-last-day-on-the-lease" target="_blank">travel diary of a trip to Los Angeles in 2011</a>. 
+    More casually, I've written posts on Medium about <a href="https://medium.com/adventures-in-consumer-technology/f66719075967">10 tech gadgets I've enjoyed using</a>, <a href="https://medium.com/@sts10/why-i-want-text-file-preferences-for-every-application-i-use-72c368f9b6fd#.bsrhfxdj9">a call for text-file preferences</a>, and <a href="https://medium.com/adventures-in-consumer-technology/my-latest-obsession-mechanical-keyboards-ef9e28089327">mechanical keyboards</a>. And for something more poetic, check out this dreamy <a href="http://schlinkblog.tumblr.com/post/6304492430/today-june-7th-marks-the-last-day-on-the-lease">travel diary of a trip to Los Angeles in 2011</a>. 
     </p>
     
-    <div style="display: block; CLEAR: both;"></div>
+    <!-- <div style="display: block; CLEAR: both;"></div> -->
 
 
-    <div class="section_title" id="games">JavaScript Games</div>
-      <p>
-        Here are a few little games I've built using JavaScript and jQuery. Some of them are works-in-progress, but each one has a few good snippets of code.  
-      </p>
-      <div id="wd_wrapper" style="margin-top:20px;">
-
-        
-
-
-        <div class="project_box">
-          <div class="project_title">
-            <a href="http://samschlinkert.com/tic_tac/" target="_blank">Tic-Tac-Toe</a>
-          </div>
-          <a href="http://samschlinkert.com/tic_tac/" class="int_image" target="_blank">
-              <img src="http://i.imgur.com/XHkzAo2.png" style="border:0; width: 100px;">
-          </a>
-          <div class="project_description">
-            Players can choose to play against one of two computer players of differing skill in the classic game of tic-tac-toe. Watch out for Alfred... he's tricky.
-            <br><br>
-            (Much later, in 2017, I wrote <a href="https://github.com/sts10/rusty-tac">a tic-tac-toe game in Rust</a>.)
-          </div>
-        </div>
-
-        <div class="project_box">
-          <div class="project_title">
-            <a href="http://samschlinkert.com/strike9/" target="_blank">Strike 9</a>
-          </div>
-
-          <a href="http://samschlinkert.com/strike9/" target="_blank" class="int_image">
-            <img src="http://samschlinkert.com/img/strike9.png" style="border:0; width:130px;">
-          </a>
-
-          <div class="project_description">
-              A frustrating little game where the objective is to run out of numbered squares (similar to "Shut the Box"). As a challenge to myself I didn't use jQuery-- just plain ole JavaScript. Writing the code to figure out when the user had lost was <a href="https://sts10.github.io/2014/05/30/strike-9-game.html">a fun puzzle</a>, involving a lot of array manipulation. (And yes, it is possible to win.)
-            <br><br>
-            <a href="https://sts10.github.io/2014/05/30/strike-9-game.html">Read my blog post about this project</a> / <a href="https://github.com/sts10/strike-9">View the code on GitHub</a>
-          </div>
-        </div>
-
-        <div class="project_box">
-          <div class="project_title">
-            <a href="http://samschlinkert.com/switch/" target="_blank">Switch!</a>
-          </div>
-
-          <a href="http://samschlinkert.com/switch/" target="_blank" class="int_image">
-            <img src="http://i.imgur.com/D9Gt3pS.png" style="border:0; width:130px; margin-bottom: 10px; margin-top:30px;">
-          </a>
-
-          <div class="project_description">
-              Get the red circles to the right and the blue circles to the left in the fewest number of moves possible.
-          </div>
-        </div>
-
-        <div class="project_box">
-          <div class="project_title">
-            <a href="http://samschlinkert.com/contract/" target="_blank">Contract Rummy Score Card</a>
-          </div>
-          <a href="http://samschlinkert.com/contract/" target="_blank" class="int_image">
-            <img src="img/contract-rummy-scorecard.png" style="border:0; width:130px;">
-          </a>
-
-          <div class="project_description">
-            My extended family has a long tradition of playing an eccentric version of gin rummy called "Contract." Keeping score can be a bit involved, so I used jQuery to make an interactive score card. 
-            <br><br>
-            <a href="https://sts10.github.io/2014/05/21/interactive-score-card.html">Read my blog post about this project</a> / <a href="https://github.com/sts10/contract_score_card">View the code on GitHub</a>
-          </div>
-        </div>
-
-      </div> <!-- ends wd_wrapper -->
-
-    <div class="section_title" id="contact">Contact</div>
+    <h2 class="section_title" id="contact">Contact</h2>
     <p> 
-      You can reach me via Direct Message or @reply <a href='http://www.twitter.com/sts10' target="_blank">on Twitter</a>. For more secure methods of contacting me, check the link(s) in <a href="https://twitter.com/sts10">my Twitter bio</a>. 
+      You can reach me via Direct Message or @reply <a href='http://www.twitter.com/sts10'>on Twitter</a>. For more secure methods of contacting me, check the link(s) in <a href="https://twitter.com/sts10">my Twitter bio</a>. 
     </p>
+
   </div>
    
 </body>
