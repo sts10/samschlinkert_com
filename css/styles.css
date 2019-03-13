@@ -60,7 +60,7 @@ a:hover {
 
 #my_name_for_menu {
   margin-bottom: 25px;
-  width:200px;
+  width:240px;
 }
 
 #my_name_for_mobile {
@@ -69,11 +69,22 @@ a:hover {
   display: none;
 }
 
+.text_cursor {
+  -webkit-animation: cursor 1.5s infinite;
+  animation: cursor 1.5s infinite;
+  background: #3d57b4;
+  display: inline-block;
+  position: relative;
+  top: 2px;
+  margin-left: 3px;
+  height: 23px;
+  width: 13px;
+}
+
 #menu {
   position: fixed;
-  width: 235px;
+  width: 250px;
   overflow-x: hidden;
-  
 }
 
 #main {
@@ -147,7 +158,7 @@ a.int_image:hover {
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 30px;
-  text-align: justify;
+  /* text-align: justify; */
 
 }
 
@@ -187,3 +198,25 @@ a.int_image:hover {
   }
 }
 
+@-webkit-keyframes cursor {
+  0% {
+    opacity:0
+  }
+  50% {
+    opacity:1
+  }
+  to {
+    opacity:0
+  }
+}
+@keyframes cursor {
+  0% {
+    opacity:0
+  }
+  50% {
+    opacity:1
+  }
+  to {
+    opacity:0
+  }
+}
