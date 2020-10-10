@@ -5,3 +5,7 @@
 ## Deployment
 
 Pushing changes to the master branch of this repo up to Github should be all I have to do push changes live to the site. 
+
+## The "contract" redirect
+
+The reason for `./contract/index.html` is simply to redirect the new URL for that project.
