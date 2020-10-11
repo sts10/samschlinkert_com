@@ -1,10 +1,38 @@
+@font-face {
+  font-family: "Fira Sans";
+  src: url("../fonts/Fira_Sans/FiraSans-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("../fonts/Fira_Sans/FiraSans-Italics.ttf");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Fira Sans";
+  src: url("../fonts/Fira_Sans/FiraSans-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("../fonts/Roboto/Roboto-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+
 body {
   border-top: 0;
   margin-top: 0px;
   padding-top: 0px;
-  margin-bottom: 500px;
+  margin-bottom: 200px;
   margin-left: 5%;
-  font-family: helvetica, arial, sans-serif;
+  font-family: "Fira Sans", helvetica, arial, sans-serif;
   line-height: 1.55555;
   font-size: 18px;
 
@@ -32,7 +60,7 @@ a:hover {
   color:white;
   white-space:nowrap;
   font-size: 13px;
-  font-family: 'helvetica neue', 'helvetica', arial;
+  font-family: Roboto, 'helvetica neue', 'helvetica', arial;
   text-decoration: none;
   padding:9px 12px;
   line-height:1.4;
@@ -50,14 +78,14 @@ a:hover {
 
 
 .my_name {
-  font-family: 'helvetica neue', 'helvetica', arial;
-  font-size: 28px; 
+  font-family: Roboto, 'helvetica neue', 'helvetica', arial;
+  font-size: 24px; 
   line-height: 1;
-  text-transform: uppercase;
-  font-weight: 600;   
+  /* text-transform: uppercase; */
+  /* font-weight: 600; */   
 }
-
 #my_name_for_menu {
+
   margin-bottom: 25px;
   width:240px;
 }
@@ -76,8 +104,8 @@ a:hover {
   position: relative;
   top: 2px;
   margin-left: 3px;
-  height: 23px;
-  width: 13px;
+  height: 22px;
+  width: 4px;
 }
 
 #menu {
@@ -111,9 +139,9 @@ a:hover {
 .section_title {
   margin-top: 28px;
   margin-bottom: 19px;
-  font-family: 'georgia', 'helvetica neue', 'helvetica', arial;
+  font-family: 'Roboto', 'helvetica neue', 'helvetica', arial;
   font-size: 28px;
-  font-style: italic;
+  text-decoration: underline;
 }
 
 .project_box {
@@ -124,7 +152,7 @@ a:hover {
 
 .project_title {
   font-size: 26px;
-  font-family: 'helvetica neue', 'helvetica', arial;
+  /* font-family: 'helvetica neue', 'helvetica', arial; */
   font-weight: bold;
   margin-left: 20px;
   margin-top: 10px;
