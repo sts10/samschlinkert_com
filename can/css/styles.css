@@ -34,7 +34,7 @@ body {
   margin-left: 3%;
   font-family: "Fira Sans", helvetica, arial, sans-serif;
   line-height: 1.55555;
-  font-size: 18px;
+  font-size: 24px;
 }
 
 header, aside, nav, section, footer {
@@ -66,16 +66,22 @@ a:hover {
 }
 
 #menu {
-  font-size: 50px;
+  font-size: 60px;
   font-family: Roboto;
   position: fixed;
   width: 500px;
   overflow-x: hidden;
 }
 
+#name_for_mobile {
+  font-size: 60px;
+  font-family: Roboto;
+  display: none;
+}
+
 #main {
-  margin-left: 260px;
-  max-width: 600px;
+  margin-left: 343px;
+  max-width: 700px;
   min-width: 300px;
   margin-right: 25px;
 }
@@ -95,20 +101,16 @@ a:hover {
   margin-bottom: 16px;
   line-height:1.05;
   font-family: 'Roboto', 'helvetica neue', 'helvetica', arial;
-  font-size: 50px;
+  font-size: 60px;
   font-weight: normal;
-  /* text-decoration: underline; */
 }
-
-
-
 
 @media only screen and (max-width: 650px) {
   body {
     margin-bottom: 30px;
     margin-left: 10px;
   }
-  aside {
+  #menu {
     display: none;
   }
   #main {
@@ -119,6 +121,12 @@ a:hover {
     display: block;
   }
 
+  .section_title {
+    padding-top: 0px;
+    margin-top: 3px;
+    font-size: 50px;
+
+  }
 }
 
 @media only screen and (max-width: 480px) {
