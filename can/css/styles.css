@@ -34,7 +34,7 @@ body {
   margin-left: 3%;
   font-family: "Fira Sans", helvetica, arial, sans-serif;
   line-height: 1.55555;
-  font-size: 24px;
+  font-size: 133%;
 }
 
 header, aside, nav, section, footer {
@@ -66,7 +66,7 @@ a:hover {
 }
 
 #menu {
-  font-size: 60px;
+  font-size: 270%;
   font-family: Roboto;
   position: fixed;
   width: 500px;
@@ -74,7 +74,7 @@ a:hover {
 }
 
 #name_for_mobile {
-  font-size: 60px;
+  font-size: 270%;
   font-family: Roboto;
   display: none;
 }
@@ -101,14 +101,16 @@ a:hover {
   margin-bottom: 16px;
   line-height:1.05;
   font-family: 'Roboto', 'helvetica neue', 'helvetica', arial;
-  font-size: 60px;
+  font-size: 270%;
   font-weight: normal;
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 900px) {
   body {
+    font-size: 100%;
     margin-bottom: 30px;
-    margin-left: 10px;
+    width: 100%;
+    /* margin-left: 10px; */
   }
   #menu {
     display: none;
@@ -124,7 +126,7 @@ a:hover {
   .section_title {
     padding-top: 0px;
     margin-top: 3px;
-    font-size: 50px;
+    font-size: 170%;
 
   }
 }
