@@ -32,7 +32,7 @@ body {
   padding-top: 0px;
   margin-bottom: 200px;
   margin-left: 3%;
-  font-family: "Fira Sans", helvetica, arial, sans-serif;
+  font-family: "Fira Sans", "Source Pro Sans", helvetica, sans-serif;
   line-height: 1.55555;
   font-size: 133%;
 }
@@ -67,7 +67,7 @@ a:hover {
 
 #menu {
   font-size: 270%;
-  font-family: Roboto;
+  font-family: Roboto, Helvetica;
   position: fixed;
   width: 500px;
   overflow-x: hidden;
@@ -75,7 +75,7 @@ a:hover {
 
 #name_for_mobile {
   font-size: 270%;
-  font-family: Roboto;
+  font-family: Roboto, Helvetica;
   display: none;
 }
 
