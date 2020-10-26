@@ -8,8 +8,12 @@ body {
   padding-top: 0px;
   margin-bottom: 200px;
   margin-left: 5%;
-  font-family: "Fira Sans", helvetica, arial, sans-serif;
+  font-family: "Fira Sans", Frutiger, "Frutiger Linotype", Univers, Calibri, "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.5;
+}
+
+h2, aside, .my_name .button {
+  font-family: Roboto, 'Helvetica Neue', Helvetica, Univers, "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, Arial, sans-serif;
 }
 
 header, aside, nav, section, footer {
@@ -19,8 +23,8 @@ header, aside, nav, section, footer {
 a {
   color: #495EC9;
   text-decoration: none;
-
 }
+
 a:hover {
   background-color: #ebebeb;
 }
@@ -34,7 +38,6 @@ a:hover {
   background:#4e68c7;
   color:white;
   white-space:nowrap;
-  font-family: Roboto, 'helvetica neue', 'helvetica', arial;
   text-decoration: none;
   padding:9px 12px;
   line-height:1.4;
@@ -52,14 +55,12 @@ a:hover {
 
 
 .my_name {
-  font-family: Roboto, 'helvetica neue', 'helvetica', arial;
   font-size: 150%; 
   line-height: 1;
   /* text-transform: uppercase; */
-  /* font-weight: 600; */   
 }
-#my_name_for_menu {
 
+#my_name_for_menu {
   margin-bottom: 25px;
   width:240px;
 }
@@ -109,11 +110,9 @@ a:hover {
   margin-bottom: 3px;   
 }
 
-
 .section_title {
   margin-top: 28px;
   margin-bottom: 19px;
-  font-family: 'Roboto', 'helvetica neue', 'helvetica', arial;
   font-size: 180%;
   text-decoration: underline;
 }
@@ -126,7 +125,6 @@ a:hover {
 
 .project_title {
   font-size: 165%;
-  /* font-family: 'helvetica neue', 'helvetica', arial; */
   font-weight: bold;
   margin-left: 20px;
   margin-top: 10px;
@@ -136,7 +134,6 @@ a:hover {
 .int_image {   
   border:0; 
   background-color: white !important;
-  
 }
 
 a.int_image:hover {
@@ -159,8 +156,6 @@ a.int_image:hover {
   margin-left: 20px;
   margin-right: 20px;
   margin-bottom: 30px;
-  /* text-align: justify; */
-
 }
 
 .project_description a:hover {
