@@ -1,5 +1,5 @@
 html {
-  font-size: 100%;
+  font-size: 112%;
 }
 
 body {
@@ -31,7 +31,7 @@ a:hover {
 
 .button {
   font-size: 80%;
-  display:inline-block;
+  display: inline-block;
   border:0;
   border-radius:0;
   outline:0;
@@ -90,7 +90,7 @@ a:hover {
 }
 
 #main {
-  margin-left: 235px;
+  margin-left: 250px;
   max-width: 600px;
   min-width: 300px;
   margin-right: 25px;
