@@ -114,12 +114,12 @@ a:hover {
 .section_title {
   margin-top: 28px;
   margin-bottom: 19px;
-  font-size: 180%;
+  font-size: 170%;
   text-decoration: underline;
 }
 
 .project_box {
-  background-color: white; /* #fcfbcc; */
+  /* background-color: white; */
   border-left: 7px #ccc solid;
   margin-bottom: 40px;  
 }
