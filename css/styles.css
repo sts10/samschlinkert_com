@@ -86,13 +86,14 @@ a:hover {
 
 #menu {
   position: fixed;
+  top: 37px;
   width: 250px;
   overflow-x: hidden;
 }
 
 #main {
   margin-left: 250px;
-  max-width: 600px;
+  max-width: 750px;
   min-width: 300px;
   margin-right: 25px;
 }
