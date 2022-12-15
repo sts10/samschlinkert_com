@@ -2,6 +2,10 @@
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/01b3b86d-4766-4d87-a70a-1b94b8beacd6/deploy-status)](https://app.netlify.com/sites/samschlinkert/deploys)
 
+## Cofniguration 
+
+This site is currently [published through Netlify](https://app.netlify.com/sites/samschlinkert/overview).
+
 ## Deployment
 
 Pushing changes to the master branch of this repo up to Github should be all I have to do push changes live to the site. 
