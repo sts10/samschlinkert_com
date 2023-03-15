@@ -39,6 +39,9 @@ a {
 a:hover {
   background-color: #ebebeb;
 }
+code,pre {
+  font-family: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
+}
 .button {
   color: #fff;
   white-space: nowrap;
