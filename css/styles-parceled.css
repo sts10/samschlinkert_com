@@ -12,14 +12,14 @@ body {
   margin-bottom: 200px;
   margin-left: 5%;
   padding-top: 0;
-  font-family: Fira Sans, Frutiger, Frutiger Linotype, Univers, Calibri, Myriad Pro, Myriad, DejaVu Sans Condensed, Liberation Sans, Nimbus Sans L, Tahoma, Geneva, Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-family: "Fira Sans", Frutiger, "Frutiger Linotype", Univers, Ubuntu, Calibri, "Myriad Pro", Myriad, "DejaVu Sans Condensed", Optima, Candara, "Noto Sans", source-sans-pro, "Liberation Sans", "Nimbus Sans L", Tahoma, Geneva, "Helvetica Neue", Helvetica, Arial, sans-serif;
   line-height: 1.5;
 }
 h1,
 h2,
 aside,
 .my_name .button {
-  font-family: Roboto, Helvetica Neue, Helvetica, Univers, Myriad Pro, Myriad, DejaVu Sans Condensed, Liberation Sans, Nimbus Sans L, Tahoma, Geneva, Arial, sans-serif;
+  font-family: Roboto, 'Helvetica Neue', Helvetica, Univers, "Myriad Pro", Myriad, "DejaVu Sans Condensed", "Liberation Sans", Inter, "Nimbus Sans", "Nimbus Sans L", Tahoma, Geneva, Arial, sans-serif;
 }
 h1 {
   text-decoration: none;
