@@ -1,20 +1,20 @@
 @font-face {
-  font-family: "Fira Sans";
-  src: url("Fira_Sans/FiraSans-Regular.ttf");
+  font-family: "IBM Plex Sans";
+  src: url("IBMPlexSans/IBMPlexSans-Regular.ttf");
   font-weight: normal;
   font-style: normal;
 }
 
 @font-face {
-  font-family: "Fira Sans";
-  src: url("Fira_Sans/FiraSans-Italic.ttf");
+  font-family: "IBM Plex Sans";
+  src: url("IBMPlexSans/IBMPlexSans-Italic.ttf");
   font-weight: normal;
   font-style: italic;
 }
 
 @font-face {
-  font-family: "Fira Sans";
-  src: url("Fira_Sans/FiraSans-Bold.ttf");
+  font-family: "IBM Plex Sans";
+  src: url("IBMPlexSans/IBMPlexSans-Bold.ttf");
   font-weight: bold;
   font-style: normal;
 }
