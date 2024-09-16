@@ -64,6 +64,11 @@ code,pre {
   color: #fff;
   background: #3d57b4;
 }
+
+:target {
+  scroll-margin-block: 30px;
+}
+
 .my_name {
   font-size: 150%;
   line-height: 1;
