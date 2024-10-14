@@ -1,6 +1,7 @@
-/* Optimized with parcel-css 
- * https://github.com/parcel-bundler/parcel-css
- * https://parcel-css.vercel.app/
+/* Optimized with Lightning CSS
+ * https://github.com/parcel-bundler/lightningcss
+ * https://lightningcss.dev
+ * And then unminimized
 */
 html {
   scroll-behavior: smooth;
