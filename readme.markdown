@@ -14,4 +14,4 @@ Pushing changes to the master branch of this repo up to Github should be all I h
 
 ## The "contract" redirect
 
-The reason for `./contract/index.html` is simply to redirect [the new URL for that project](https://contractscorecard.netlify.app/).
+The reason for `./contract/index.html` is simply to redirect to [the new URL for that project](https://contractscorecard.netlify.app/).
